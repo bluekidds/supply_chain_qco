@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2c10622401482f02593e9386856b3942 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2c10622401482f02593e9386856b3942" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2c10622401482f02593e9386856b3942 = L.map(
+                "map_2c10622401482f02593e9386856b3942",
+                {
+                    center: [-25.2744, 133.7751],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_404e2100fb48a2dfe357110598d19781 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_404e2100fb48a2dfe357110598d19781.addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+            var circle_marker_34d69ce3d52b7991ffa0f868550f6cad = L.circleMarker(
+                [-31.95, 115.86],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_79123c02c92b772b435255587e72cfe1 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_84914d8e5cc94a82dca567e8b44a8249 = $(`<div id="html_84914d8e5cc94a82dca567e8b44a8249" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> ENCHT<br>         <strong>Company:</strong> Enchanted Lagoon<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>17820.0</td>             <td>2024-09-18</td>             <td>1956.1680000000001</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2024-04-23</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2025-03-01</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2023-09-26</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2025-07-21</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2023-11-27</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2024-11-25</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2025-06-11</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2025-05-20</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2025-05-02</td>             <td>189.92999999999998</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_79123c02c92b772b435255587e72cfe1.setContent(html_84914d8e5cc94a82dca567e8b44a8249);
+            
+        
+
+        circle_marker_34d69ce3d52b7991ffa0f868550f6cad.bindPopup(popup_79123c02c92b772b435255587e72cfe1)
+        ;
+
+        
+    
+    
+            var circle_marker_930bdfc4c194b3a6f74206d95015bc8c = L.circleMarker(
+                [-34.928, 138.601],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_3bcf074fc9837e297da42f5627ef835b = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_5175d58dc88cb778f8451d082aefc389 = $(`<div id="html_5175d58dc88cb778f8451d082aefc389" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> SNCOS<br>         <strong>Company:</strong> Sonic Oasis<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>8800.0</td>             <td>2024-02-20</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>17600.0</td>             <td>2025-07-26</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>8800.0</td>             <td>2023-09-20</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>8800.0</td>             <td>2025-04-06</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>8800.0</td>             <td>2024-07-28</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>21037.5</td>             <td>2025-03-26</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>32037.5</td>             <td>2024-12-20</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>21037.5</td>             <td>2025-06-25</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>5087.5</td>             <td>2023-11-25</td>             <td>174.73559999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>16225.0</td>             <td>2025-06-07</td>             <td>174.73559999999998</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_3bcf074fc9837e297da42f5627ef835b.setContent(html_5175d58dc88cb778f8451d082aefc389);
+            
+        
+
+        circle_marker_930bdfc4c194b3a6f74206d95015bc8c.bindPopup(popup_3bcf074fc9837e297da42f5627ef835b)
+        ;
+
+        
+    
+    
+            var circle_marker_c6f80431c09cba2c052ede9067b481e3 = L.circleMarker(
+                [-33.867, 151.207],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_a7556ae46f420f4c30d3b6a4c5d9a1e3 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_98d11fd2a1befeb2239c110b2bf129db = $(`<div id="html_98d11fd2a1befeb2239c110b2bf129db" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> VRTXX<br>         <strong>Company:</strong> Vortex Vista<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-02-19</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-10-25</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-06-27</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-06-20</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-06-14</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-08-16</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-02-18</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-06-24</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-07-29</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-11-11</td>             <td>393.1128</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_a7556ae46f420f4c30d3b6a4c5d9a1e3.setContent(html_98d11fd2a1befeb2239c110b2bf129db);
+            
+        
+
+        circle_marker_c6f80431c09cba2c052ede9067b481e3.bindPopup(popup_a7556ae46f420f4c30d3b6a4c5d9a1e3)
+        ;
+
+        
+    
+    
+            var circle_marker_b2ed658b0e7da7ad0f9c3250819ad369 = L.circleMarker(
+                [-31.95, 115.86],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_c70bd629154c6a4981c066a3ac35dec4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d37b37f587fcad36b99bd3215afcbb95 = $(`<div id="html_d37b37f587fcad36b99bd3215afcbb95" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> ECHOC<br>         <strong>Company:</strong> Echo Canyon<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-11-24</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-02-01</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-09-23</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-11-23</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-08-15</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-02-11</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-12-26</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-09-12</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-12-19</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-08-06</td>             <td>393.1128</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_c70bd629154c6a4981c066a3ac35dec4.setContent(html_d37b37f587fcad36b99bd3215afcbb95);
+            
+        
+
+        circle_marker_b2ed658b0e7da7ad0f9c3250819ad369.bindPopup(popup_c70bd629154c6a4981c066a3ac35dec4)
+        ;
+
+        
+    
+    
+            var circle_marker_7ca82637702ce7b344d9d868dbb376af = L.circleMarker(
+                [-16.922, 145.771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_3083e6209ff86037d7533097c658de68 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_3e5eb2bef25be67c811b4b646207b1a5 = $(`<div id="html_3e5eb2bef25be67c811b4b646207b1a5" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> CYBRX<br>         <strong>Company:</strong> Cybernetic Citadel<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>14800.0</td>             <td>2025-01-01</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>28760.0</td>             <td>2025-11-08</td>             <td>379.07099999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>43760.0</td>             <td>2025-05-08</td>             <td>379.07099999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>28824.0</td>             <td>2023-10-09</td>             <td>379.07099999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>34828.0</td>             <td>2025-03-03</td>             <td>379.07099999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>303.0</td>             <td>2025-08-18</td>             <td>846.896</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>38648.0</td>             <td>2024-08-28</td>             <td>379.07099999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39852.0</td>             <td>2023-12-24</td>             <td>379.07099999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>33240.0</td>             <td>2025-02-13</td>             <td>379.07099999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>12088.0</td>             <td>2025-10-05</td>             <td>379.07099999999997</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_3083e6209ff86037d7533097c658de68.setContent(html_3e5eb2bef25be67c811b4b646207b1a5);
+            
+        
+
+        circle_marker_7ca82637702ce7b344d9d868dbb376af.bindPopup(popup_3083e6209ff86037d7533097c658de68)
+        ;
+
+        
+    
+    
+            var circle_marker_71e82914caaa1cd13dc0a5ce09c0f29e = L.circleMarker(
+                [-31.967, 141.453],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_e1b6dc2c5eb5680090a24fa3e56e5dc9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6476d1940c710d59248de71ec32c32ef = $(`<div id="html_6476d1940c710d59248de71ec32c32ef" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> ASTRX<br>         <strong>Company:</strong> Astral Orchards<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-10-09</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-04-21</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-11-04</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-09-28</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-09-09</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-12-04</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-02-13</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-04-25</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-01-09</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-07-05</td>             <td>393.1128</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_e1b6dc2c5eb5680090a24fa3e56e5dc9.setContent(html_6476d1940c710d59248de71ec32c32ef);
+            
+        
+
+        circle_marker_71e82914caaa1cd13dc0a5ce09c0f29e.bindPopup(popup_e1b6dc2c5eb5680090a24fa3e56e5dc9)
+        ;
+
+        
+    
+    
+            var circle_marker_2fd6dcecb558d2801f71d0188c57fd91 = L.circleMarker(
+                [-32.925, 151.781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_5d0077f9ce26ac65dfeaf0032866c484 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_cf88c57affbfcebf5c8d2e9b32d673a1 = $(`<div id="html_cf88c57affbfcebf5c8d2e9b32d673a1" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> DRMWT<br>         <strong>Company:</strong> Dreamweaver Terrace<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-02-10</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-06-16</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-01-19</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-05-19</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-10-12</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-01-08</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-03-28</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-12-09</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-06-03</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-07-04</td>             <td>393.1128</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_5d0077f9ce26ac65dfeaf0032866c484.setContent(html_cf88c57affbfcebf5c8d2e9b32d673a1);
+            
+        
+
+        circle_marker_2fd6dcecb558d2801f71d0188c57fd91.bindPopup(popup_5d0077f9ce26ac65dfeaf0032866c484)
+        ;
+
+        
+    
+    
+            var circle_marker_764cac9a079af04f157deee0f5a6812a = L.circleMarker(
+                [-33.868, 151.209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_3ef21710f6b5ea902e4e32e35d116ef0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8e195fba3694a06f08d2b32db3a3faea = $(`<div id="html_8e195fba3694a06f08d2b32db3a3faea" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> QNTMC<br>         <strong>Company:</strong> Quantum Nexus Junction<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-11-11</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-10-07</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-10-30</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-07-09</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-04-06</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-11-12</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-05-19</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-11-04</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-09-28</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-10-22</td>             <td>393.1128</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_3ef21710f6b5ea902e4e32e35d116ef0.setContent(html_8e195fba3694a06f08d2b32db3a3faea);
+            
+        
+
+        circle_marker_764cac9a079af04f157deee0f5a6812a.bindPopup(popup_3ef21710f6b5ea902e4e32e35d116ef0)
+        ;
+
+        
+    
+    
+            var circle_marker_a8f1d660c90f808ac7773ed7b4cf5bde = L.circleMarker(
+                [-37.813, 144.963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_f8a2cd2109e733be2b18f282b26d95d8 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_e57cab67ff8a6245815a1c9c97fc0cdb = $(`<div id="html_e57cab67ff8a6245815a1c9c97fc0cdb" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> LMSCD<br>         <strong>Company:</strong> Luminescent Grove<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-05-14</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-08-18</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-09-23</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-12-22</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2023-10-17</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-05-02</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-09-25</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-01-15</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2025-04-12</td>             <td>393.1128</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1344.0</td>             <td>2024-08-10</td>             <td>393.1128</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_f8a2cd2109e733be2b18f282b26d95d8.setContent(html_e57cab67ff8a6245815a1c9c97fc0cdb);
+            
+        
+
+        circle_marker_a8f1d660c90f808ac7773ed7b4cf5bde.bindPopup(popup_f8a2cd2109e733be2b18f282b26d95d8)
+        ;
+
+        
+    
+    
+            var circle_marker_ef873f68138029f24efa093b915c8df7 = L.circleMarker(
+                [-35.282, 149.125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_0b320d7bca0345822b399bb8c9734f1c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_ce9489800423f70f19c41bc6f599e6b6 = $(`<div id="html_ce9489800423f70f19c41bc6f599e6b6" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> CLSTC<br>         <strong>Company:</strong> Celestial Courtyard<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2024-09-23</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>6.0</td>             <td>6.0</td>             <td>0</td>             <td>-6.0</td>             <td>2024-06-25</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>-6.0</td>             <td>-6.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-10-22</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>6.0</td>             <td>6.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-07-08</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2024-12-26</td>             <td>880.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-1.0</td>             <td>2025-03-30</td>             <td>880.0</td>         </tr>                  <tr>             <td>1.0</td>             <td>1.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-03-19</td>             <td>880.0</td>         </tr>                  <tr>             <td>-1.0</td>             <td>0.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-09-28</td>             <td>nan</td>         </tr>                  <tr>             <td>0.0</td>             <td>-1.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-06-12</td>             <td>nan</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>5.0</td>             <td>2025-06-22</td>             <td>120982.4</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_0b320d7bca0345822b399bb8c9734f1c.setContent(html_ce9489800423f70f19c41bc6f599e6b6);
+            
+        
+
+        circle_marker_ef873f68138029f24efa093b915c8df7.bindPopup(popup_0b320d7bca0345822b399bb8c9734f1c)
+        ;
+
+        
+    
+    
+            var circle_marker_17c2c7a9f649ff0c01d5e2571719c48d = L.circleMarker(
+                [-28.016, 153.4],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_f332483975f49cdaf5117695e51be820 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1dbbbc62fd4cbe747adab46c9c4906bd = $(`<div id="html_1dbbbc62fd4cbe747adab46c9c4906bd" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> HLGRM<br>         <strong>Company:</strong> Holographic Harbor<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2025-08-26</td>             <td>880.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2025-04-01</td>             <td>695.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2025-11-18</td>             <td>681.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2025-07-09</td>             <td>281.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2025-10-18</td>             <td>56.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2025-08-24</td>             <td>32.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2025-10-30</td>             <td>18.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2025-11-18</td>             <td>8.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2024-12-13</td>             <td>6.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2025-04-01</td>             <td>808.0</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_f332483975f49cdaf5117695e51be820.setContent(html_1dbbbc62fd4cbe747adab46c9c4906bd);
+            
+        
+
+        circle_marker_17c2c7a9f649ff0c01d5e2571719c48d.bindPopup(popup_f332483975f49cdaf5117695e51be820)
+        ;
+
+        
+    
+    
+            var circle_marker_4306bcfe73fc4b4bede6f8cff492be68 = L.circleMarker(
+                [-35.282, 149.125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_caca5907a764cc9fc9d51b4cf53e88c2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fb33fda5cee3c6aa6e5472552c3baa4c = $(`<div id="html_fb33fda5cee3c6aa6e5472552c3baa4c" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> TECHY<br>         <strong>Company:</strong> Techno Haven<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>15.0</td>             <td>2024-08-24</td>             <td>528084.8999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>17.0</td>             <td>2024-08-22</td>             <td>844935.84</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>13.0</td>             <td>2023-11-27</td>             <td>147338.63999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>13.0</td>             <td>2024-03-29</td>             <td>264042.44999999995</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>17.0</td>             <td>2024-10-27</td>             <td>563290.5599999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>10.0</td>             <td>2025-01-29</td>             <td>545687.73</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>12.0</td>             <td>2025-06-28</td>             <td>316850.94</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>9.0</td>             <td>2024-12-18</td>             <td>193631.13</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>11.0</td>             <td>2024-08-24</td>             <td>216096.672</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>17.0</td>             <td>2025-10-27</td>             <td>176028.3</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_caca5907a764cc9fc9d51b4cf53e88c2.setContent(html_fb33fda5cee3c6aa6e5472552c3baa4c);
+            
+        
+
+        circle_marker_4306bcfe73fc4b4bede6f8cff492be68.bindPopup(popup_caca5907a764cc9fc9d51b4cf53e88c2)
+        ;
+
+        
+    
+    
+            var circle_marker_705c4a6536c46b0af0a0b072e0201c0b = L.circleMarker(
+                [-33.868, 151.209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_0313c9b842c137ec2830d85ef5ff9084 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_27338f347e9ebc2b2073190cb2b2b7db = $(`<div id="html_27338f347e9ebc2b2073190cb2b2b7db" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> EPHMR<br>         <strong>Company:</strong> Ephemeral Echo Square<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>5.0</td>             <td>2024-11-23</td>             <td>628041.5460000001</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>3.0</td>             <td>2024-04-13</td>             <td>809728.7999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-08-12</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-09-07</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-5.0</td>             <td>2025-11-30</td>             <td>628041.5460000001</td>         </tr>                  <tr>             <td>5.0</td>             <td>5.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-03-02</td>             <td>628041.5460000001</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-3.0</td>             <td>2024-10-24</td>             <td>809728.7999999999</td>         </tr>                  <tr>             <td>3.0</td>             <td>3.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-02-27</td>             <td>809728.7999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-4.0</td>             <td>2025-06-16</td>             <td>93232.8</td>         </tr>                  <tr>             <td>4.0</td>             <td>4.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-12-30</td>             <td>93232.8</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_0313c9b842c137ec2830d85ef5ff9084.setContent(html_27338f347e9ebc2b2073190cb2b2b7db);
+            
+        
+
+        circle_marker_705c4a6536c46b0af0a0b072e0201c0b.bindPopup(popup_0313c9b842c137ec2830d85ef5ff9084)
+        ;
+
+        
+    
+    
+            var circle_marker_9b0be41cfa21a08355dc7f0699d6a712 = L.circleMarker(
+                [-27.469, 153.025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_333e0901855590ce0dbedf4e823d40c2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f0d47838c158dd8cac0b46e0c263200c = $(`<div id="html_f0d47838c158dd8cac0b46e0c263200c" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> NBULY<br>         <strong>Company:</strong> Nebula Nexus<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>9.0</td>             <td>2024-12-16</td>             <td>774523.2000000001</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>17.0</td>             <td>2025-06-17</td>             <td>570946.86</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>10.0</td>             <td>2025-01-04</td>             <td>827331.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2024-01-04</td>             <td>108048.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-03-16</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-08-14</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2025-11-13</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-9.0</td>             <td>2024-06-24</td>             <td>774523.2000000001</td>         </tr>                  <tr>             <td>9.0</td>             <td>9.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-09-05</td>             <td>774523.2000000001</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-17.0</td>             <td>2023-11-22</td>             <td>570946.86</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_333e0901855590ce0dbedf4e823d40c2.setContent(html_f0d47838c158dd8cac0b46e0c263200c);
+            
+        
+
+        circle_marker_9b0be41cfa21a08355dc7f0699d6a712.bindPopup(popup_333e0901855590ce0dbedf4e823d40c2)
+        ;
+
+        
+    
+    
+            var circle_marker_b35145a227afa908595c6a8d0572b443 = L.circleMarker(
+                [-37.813, 144.963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_af8865912c317b534ea9b7de79b5a524 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_a63ea583af23d7ab0e0d0556d918cdc2 = $(`<div id="html_a63ea583af23d7ab0e0d0556d918cdc2" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> NEBLU<br>         <strong>Company:</strong> Nebula Heights<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2023-11-01</td>             <td>580893.3899999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>11.0</td>             <td>2024-09-22</td>             <td>333967.584</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-11-30</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2024-08-15</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-2.0</td>             <td>2024-09-07</td>             <td>580893.3899999999</td>         </tr>                  <tr>             <td>2.0</td>             <td>2.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-09-10</td>             <td>580893.3899999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-11.0</td>             <td>2025-05-28</td>             <td>333967.584</td>         </tr>                  <tr>             <td>11.0</td>             <td>11.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-04-02</td>             <td>333967.584</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-4.0</td>             <td>2025-11-05</td>             <td>159869.6</td>         </tr>                  <tr>             <td>4.0</td>             <td>4.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-02-06</td>             <td>159869.6</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_af8865912c317b534ea9b7de79b5a524.setContent(html_a63ea583af23d7ab0e0d0556d918cdc2);
+            
+        
+
+        circle_marker_b35145a227afa908595c6a8d0572b443.bindPopup(popup_af8865912c317b534ea9b7de79b5a524)
+        ;
+
+        
+    
+    
+            var circle_marker_be5a03044969863f4d15bb70c0f79131 = L.circleMarker(
+                [-28.016, 153.4],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_a0e6bbe4e61a98e9b201e9e6330915df = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_fd78d702a12dc24ce1bc831ababea383 = $(`<div id="html_fd78d702a12dc24ce1bc831ababea383" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> SPCTR<br>         <strong>Company:</strong> Spectrum Summit<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-08-02</td>             <td>98225.76</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>17.0</td>             <td>2025-11-20</td>             <td>196451.52</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>15.0</td>             <td>2024-04-06</td>             <td>774524.52</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>10.0</td>             <td>2023-10-02</td>             <td>616099.0499999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>9.0</td>             <td>2024-09-03</td>             <td>792127.35</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2025-10-17</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-12-26</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-02-23</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-02-20</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2023-12-20</td>             <td>106456.49999999999</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_a0e6bbe4e61a98e9b201e9e6330915df.setContent(html_fd78d702a12dc24ce1bc831ababea383);
+            
+        
+
+        circle_marker_be5a03044969863f4d15bb70c0f79131.bindPopup(popup_a0e6bbe4e61a98e9b201e9e6330915df)
+        ;
+
+        
+    
+    
+            var circle_marker_8df258cc6e775f8a44fb7c6c7914c4b0 = L.circleMarker(
+                [-34.928, 138.601],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_930e3f1bfb8b2edff87292596249c8a7 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1486d38fbb78e4048dec048ec233fe1d = $(`<div id="html_1486d38fbb78e4048dec048ec233fe1d" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> ENIGA<br>         <strong>Company:</strong> Enigma Alley<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>11.0</td>             <td>2024-09-12</td>             <td>412548.192</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>12.0</td>             <td>2025-04-26</td>             <td>513852.174</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>15.0</td>             <td>2025-11-09</td>             <td>1141893.72</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>8.0</td>             <td>2025-10-18</td>             <td>633701.88</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-10-19</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-06-13</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-06-17</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2023-12-14</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>11.0</td>             <td>11.0</td>             <td>0</td>             <td>-11.0</td>             <td>2024-02-01</td>             <td>412548.192</td>         </tr>                  <tr>             <td>12.0</td>             <td>12.0</td>             <td>0</td>             <td>-12.0</td>             <td>2025-04-03</td>             <td>513852.174</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_930e3f1bfb8b2edff87292596249c8a7.setContent(html_1486d38fbb78e4048dec048ec233fe1d);
+            
+        
+
+        circle_marker_8df258cc6e775f8a44fb7c6c7914c4b0.bindPopup(popup_930e3f1bfb8b2edff87292596249c8a7)
+        ;
+
+        
+    
+    
+            var circle_marker_a127b7a15d6386be2686d2133c3eb92f = L.circleMarker(
+                [-35.28, 149.13],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_27e8e6aab2df07a0a5f4ba49b8daae9a = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6784066cc2d0261fa63099c26c1429f0 = $(`<div id="html_6784066cc2d0261fa63099c26c1429f0" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> PNNCL<br>         <strong>Company:</strong> Pinnacle of Illusion<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>14.0</td>             <td>2025-08-16</td>             <td>721716.0299999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>1.0</td>             <td>2025-10-09</td>             <td>651304.71</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>7.0</td>             <td>2025-08-22</td>             <td>98225.76</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-12-30</td>             <td>383080.464</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-03-26</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-07-21</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2024-01-23</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2024-11-21</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>1.0</td>             <td>1.0</td>             <td>0</td>             <td>-1.0</td>             <td>2024-12-27</td>             <td>651304.71</td>         </tr>                  <tr>             <td>7.0</td>             <td>7.0</td>             <td>0</td>             <td>-7.0</td>             <td>2025-07-01</td>             <td>98225.76</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_27e8e6aab2df07a0a5f4ba49b8daae9a.setContent(html_6784066cc2d0261fa63099c26c1429f0);
+            
+        
+
+        circle_marker_a127b7a15d6386be2686d2133c3eb92f.bindPopup(popup_27e8e6aab2df07a0a5f4ba49b8daae9a)
+        ;
+
+        
+    
+    
+            var circle_marker_75a35206d38f6976b878da99528ddf75 = L.circleMarker(
+                [-35.282, 149.125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_6023e712d2922d1e2c59aae763c6f8a0 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_9b97f0339351ca17ae0549788e57b6a5 = $(`<div id="html_9b97f0339351ca17ae0549788e57b6a5" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> CRYSX<br>         <strong>Company:</strong> Crystal Cascade Commons<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>10.0</td>             <td>2024-03-21</td>             <td>456757.488</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>15.0</td>             <td>2025-09-04</td>             <td>704112.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>9.0</td>             <td>2024-02-08</td>             <td>422467.2</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>14.0</td>             <td>2025-03-12</td>             <td>461662.2</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-02-11</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-11-04</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-02-12</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2023-11-14</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>4.0</td>             <td>4.0</td>             <td>0</td>             <td>-4.0</td>             <td>2025-05-30</td>             <td>159869.6</td>         </tr>                  <tr>             <td>4.0</td>             <td>4.0</td>             <td>0</td>             <td>-4.0</td>             <td>2024-02-19</td>             <td>93232.8</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_6023e712d2922d1e2c59aae763c6f8a0.setContent(html_9b97f0339351ca17ae0549788e57b6a5);
+            
+        
+
+        circle_marker_75a35206d38f6976b878da99528ddf75.bindPopup(popup_6023e712d2922d1e2c59aae763c6f8a0)
+        ;
+
+        
+    
+    
+            var circle_marker_28eb74bf26f51b1d8e5ad1cab221d6be = L.circleMarker(
+                [-27.468, 153.028],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_96ecd1fe7a00c8678b4d9bf6f86b806e = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_530da3939fce26b5d541234b1ae2202f = $(`<div id="html_530da3939fce26b5d541234b1ae2202f" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> GLITR<br>         <strong>Company:</strong> Glittering Meadows<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>7.0</td>             <td>2024-12-13</td>             <td>176028.3</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>10.0</td>             <td>2024-01-19</td>             <td>1141893.72</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>15.0</td>             <td>2025-02-27</td>             <td>1370272.464</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>13.0</td>             <td>2025-11-29</td>             <td>422370.768</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-03-20</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-07-02</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-02-01</td>             <td>93232.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2023-10-19</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>7.0</td>             <td>7.0</td>             <td>0</td>             <td>-7.0</td>             <td>2025-05-10</td>             <td>176028.3</td>         </tr>                  <tr>             <td>10.0</td>             <td>10.0</td>             <td>0</td>             <td>-10.0</td>             <td>2024-10-13</td>             <td>1141893.72</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_96ecd1fe7a00c8678b4d9bf6f86b806e.setContent(html_530da3939fce26b5d541234b1ae2202f);
+            
+        
+
+        circle_marker_28eb74bf26f51b1d8e5ad1cab221d6be.bindPopup(popup_96ecd1fe7a00c8678b4d9bf6f86b806e)
+        ;
+
+        
+    
+    
+            var circle_marker_e1a949040dc54d302c3a8715729a590c = L.circleMarker(
+                [-16.922, 145.771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_6f9ddf042961abd26b90e9e5e3ea74c9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c65d4a765eb001dd18619a9be232fb66 = $(`<div id="html_c65d4a765eb001dd18619a9be232fb66" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> DRMRX<br>         <strong>Company:</strong> Dreamer's Delight Plaza<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>11.0</td>             <td>2024-03-14</td>             <td>481619.99999999994</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-04-08</td>             <td>352056.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2025-07-19</td>             <td>387262.26</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2024-10-21</td>             <td>563290.5599999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2025-08-12</td>             <td>108048.336</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19.0</td>             <td>2024-08-13</td>             <td>392903.04</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-10-20</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-02-22</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2025-03-25</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2025-06-17</td>             <td>106456.49999999999</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_6f9ddf042961abd26b90e9e5e3ea74c9.setContent(html_c65d4a765eb001dd18619a9be232fb66);
+            
+        
+
+        circle_marker_e1a949040dc54d302c3a8715729a590c.bindPopup(popup_6f9ddf042961abd26b90e9e5e3ea74c9)
+        ;
+
+        
+    
+    
+            var circle_marker_c7469aed9a103807d143b77f877ddba9 = L.circleMarker(
+                [-31.95, 115.86],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_385a63055e0aee1a09f1dccee43caa72 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_d5a2f699b54af35a1e052eaf9f59aa33 = $(`<div id="html_d5a2f699b54af35a1e052eaf9f59aa33" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> ILLSN<br>         <strong>Company:</strong> Illusionist's Utopia<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-05-22</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-06-04</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-04-12</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-06-17</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-11-21</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-01-08</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-01-31</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-11-23</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-11-25</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-08-03</td>             <td>392.98499999999996</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_385a63055e0aee1a09f1dccee43caa72.setContent(html_d5a2f699b54af35a1e052eaf9f59aa33);
+            
+        
+
+        circle_marker_c7469aed9a103807d143b77f877ddba9.bindPopup(popup_385a63055e0aee1a09f1dccee43caa72)
+        ;
+
+        
+    
+    
+            var circle_marker_13de9f1c531cca6c45617d56fdaccd2f = L.circleMarker(
+                [-35.282, 149.125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_437494b2b2f8b06f9d8f15a1af62fab4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_0a19febc2b2582ab0063a38fcca3432f = $(`<div id="html_0a19febc2b2582ab0063a38fcca3432f" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> CHRMX<br>         <strong>Company:</strong> Chromatic Corridor<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-05-14</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-08-23</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-06-24</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-06-01</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-06-11</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-02-10</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-12-14</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-07-16</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2024-08-25</td>             <td>392.98499999999996</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>576.0</td>             <td>2025-11-08</td>             <td>392.98499999999996</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_437494b2b2f8b06f9d8f15a1af62fab4.setContent(html_0a19febc2b2582ab0063a38fcca3432f);
+            
+        
+
+        circle_marker_13de9f1c531cca6c45617d56fdaccd2f.bindPopup(popup_437494b2b2f8b06f9d8f15a1af62fab4)
+        ;
+
+        
+    
+    
+            var circle_marker_1d4477eccb16c85c01385756be51d635 = L.circleMarker(
+                [-33.867, 151.207],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_fbe1c0f2f4cd24c1d67813dd3d1c41f2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_6804ec5434314d29c4676d1bcd237188 = $(`<div id="html_6804ec5434314d29c4676d1bcd237188" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> ETHRL<br>         <strong>Company:</strong> Ethereal Enclave<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>648.0</td>             <td>2023-09-27</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>120.0</td>             <td>2025-08-20</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-03-22</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-04-19</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-04-20</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-11-02</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-04-10</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2023-11-14</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-02-19</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-03-05</td>             <td>316.1664</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_fbe1c0f2f4cd24c1d67813dd3d1c41f2.setContent(html_6804ec5434314d29c4676d1bcd237188);
+            
+        
+
+        circle_marker_1d4477eccb16c85c01385756be51d635.bindPopup(popup_fbe1c0f2f4cd24c1d67813dd3d1c41f2)
+        ;
+
+        
+    
+    
+            var circle_marker_662f3bc9bf7735bf79b33140b417d45d = L.circleMarker(
+                [-32.925, 151.781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_80fcd876c356aef0eef26778c31676fb = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_1490febe62661d4fd76e8ab23f302f37 = $(`<div id="html_1490febe62661d4fd76e8ab23f302f37" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> INFTY<br>         <strong>Company:</strong> Infinity Isles<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2023-12-24</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-07-27</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2023-12-14</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2023-11-13</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-08-14</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-07-12</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-03-06</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-08-22</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-06-05</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-10-08</td>             <td>316.1664</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_80fcd876c356aef0eef26778c31676fb.setContent(html_1490febe62661d4fd76e8ab23f302f37);
+            
+        
+
+        circle_marker_662f3bc9bf7735bf79b33140b417d45d.bindPopup(popup_80fcd876c356aef0eef26778c31676fb)
+        ;
+
+        
+    
+    
+            var circle_marker_c33112b747c2107e42098cc827efdb6f = L.circleMarker(
+                [-34.928, 138.601],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_512139f58609dbd29a9d3b231086b648 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_8b9fa656eaa47b72f09661d17658e764 = $(`<div id="html_8b9fa656eaa47b72f09661d17658e764" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> MRGMS<br>         <strong>Company:</strong> Mirage Mosaic Mall<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19800.0</td>             <td>2025-10-31</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-19800.0</td>             <td>2025-03-31</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>19800.0</td>             <td>19800.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-02-15</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>-15840.0</td>             <td>0.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-08-21</td>             <td>nan</td>         </tr>                  <tr>             <td>0.0</td>             <td>-15840.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-05-15</td>             <td>nan</td>         </tr>                  <tr>             <td>-3960.0</td>             <td>0.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-07-05</td>             <td>nan</td>         </tr>                  <tr>             <td>0.0</td>             <td>-3960.0</td>             <td>0</td>             <td>0.0</td>             <td>2023-12-12</td>             <td>nan</td>         </tr>         </table>     </div>     </div>`)[0];
+                popup_512139f58609dbd29a9d3b231086b648.setContent(html_8b9fa656eaa47b72f09661d17658e764);
+            
+        
+
+        circle_marker_c33112b747c2107e42098cc827efdb6f.bindPopup(popup_512139f58609dbd29a9d3b231086b648)
+        ;
+
+        
+    
+    
+            var circle_marker_69a3b697f9c22fdffe863658fe1271ef = L.circleMarker(
+                [-28.016, 153.4],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_222015ce0b12d211521f6d40dbe1fad9 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_44121aa0cbca00a9e08fd2333db971f8 = $(`<div id="html_44121aa0cbca00a9e08fd2333db971f8" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> QNTMM<br>         <strong>Company:</strong> Quantum Quay<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-01-13</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-02-16</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-07-18</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-08-12</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-01-19</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-11-06</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2023-12-10</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-09-02</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-03-18</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-09-07</td>             <td>316.1664</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_222015ce0b12d211521f6d40dbe1fad9.setContent(html_44121aa0cbca00a9e08fd2333db971f8);
+            
+        
+
+        circle_marker_69a3b697f9c22fdffe863658fe1271ef.bindPopup(popup_222015ce0b12d211521f6d40dbe1fad9)
+        ;
+
+        
+    
+    
+            var circle_marker_bb1937be3d27150776df9ee56aaccf63 = L.circleMarker(
+                [-35.28, 149.13],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_0f6ce4a76e28deb29151543ccbdaa93c = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_12d6e582993b355e58e058b2aa0480a9 = $(`<div id="html_12d6e582993b355e58e058b2aa0480a9" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> AETHR<br>         <strong>Company:</strong> Aether Atrium<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-09-07</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-06-08</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-05-26</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-11-19</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2023-11-26</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-04-19</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-02-11</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-07-10</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-11-06</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-04-27</td>             <td>316.1664</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_0f6ce4a76e28deb29151543ccbdaa93c.setContent(html_12d6e582993b355e58e058b2aa0480a9);
+            
+        
+
+        circle_marker_bb1937be3d27150776df9ee56aaccf63.bindPopup(popup_0f6ce4a76e28deb29151543ccbdaa93c)
+        ;
+
+        
+    
+    
+            var circle_marker_049a8267fe71e105b299d849082efaf4 = L.circleMarker(
+                [-33.868, 151.208],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_137cc9a8651a42e46dad96fa51b5bcc2 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_4c01b5e06b7223e17d062f7e286331c5 = $(`<div id="html_4c01b5e06b7223e17d062f7e286331c5" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> RDTVX<br>         <strong>Company:</strong> Radiant Ravine<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-03-04</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-01-31</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-08-24</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-05-13</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-01-20</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-08-07</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-03-08</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-01-22</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-07-01</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-01-23</td>             <td>316.1664</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_137cc9a8651a42e46dad96fa51b5bcc2.setContent(html_4c01b5e06b7223e17d062f7e286331c5);
+            
+        
+
+        circle_marker_049a8267fe71e105b299d849082efaf4.bindPopup(popup_137cc9a8651a42e46dad96fa51b5bcc2)
+        ;
+
+        
+    
+    
+            var circle_marker_f81c6f0f8cffe4107bf302a6dddae192 = L.circleMarker(
+                [-37.813, 144.963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_858dea673addab3e0cc5d1425f1de949 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f2df0080e66fb2f08b0ea49297d0f916 = $(`<div id="html_f2df0080e66fb2f08b0ea49297d0f916" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> HPRSN<br>         <strong>Company:</strong> Hyperspace Hollow<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-01-23</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-08-03</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-10-08</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-09-03</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-03-20</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-05-18</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-04-14</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-07-14</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-05-13</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-04-03</td>             <td>316.1664</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_858dea673addab3e0cc5d1425f1de949.setContent(html_f2df0080e66fb2f08b0ea49297d0f916);
+            
+        
+
+        circle_marker_f81c6f0f8cffe4107bf302a6dddae192.bindPopup(popup_858dea673addab3e0cc5d1425f1de949)
+        ;
+
+        
+    
+    
+            var circle_marker_412ce13f3349991b6011f9418b792b2a = L.circleMarker(
+                [-31.967, 141.453],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_16de3c1d6b2436c7bbde01be99ee80bc = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_7590df9124e4ddc36c6002822b8ff5aa = $(`<div id="html_7590df9124e4ddc36c6002822b8ff5aa" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> LMSNX<br>         <strong>Company:</strong> Luminous Labyrinth<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>480.0</td>             <td>2025-09-24</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>288.0</td>             <td>2024-08-16</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-01-11</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2023-10-05</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-10-25</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-02-26</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-03-24</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-02-06</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2025-03-03</td>             <td>316.1664</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.0</td>             <td>2024-10-19</td>             <td>316.1664</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_16de3c1d6b2436c7bbde01be99ee80bc.setContent(html_7590df9124e4ddc36c6002822b8ff5aa);
+            
+        
+
+        circle_marker_412ce13f3349991b6011f9418b792b2a.bindPopup(popup_16de3c1d6b2436c7bbde01be99ee80bc)
+        ;
+
+        
+    
+    
+            var circle_marker_18c2e7d63b9467daa728684ff0eaaac7 = L.circleMarker(
+                [-27.469, 153.025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_b75cb944cb1905b508f2946a3e1cadf8 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_f6e0b206840518615c42c3563983057b = $(`<div id="html_f6e0b206840518615c42c3563983057b" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> ETHRX<br>         <strong>Company:</strong> Ethereal Expanse<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>768.32</td>             <td>2025-05-19</td>             <td>331.20899999999995</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>548.8</td>             <td>2025-05-24</td>             <td>224.76999999999998</td>         </tr>                  <tr>             <td>768.32</td>             <td>768.32</td>             <td>0</td>             <td>-768.32</td>             <td>2024-12-09</td>             <td>331.20899999999995</td>         </tr>                  <tr>             <td>548.8</td>             <td>548.8</td>             <td>0</td>             <td>-548.8</td>             <td>2025-02-28</td>             <td>224.76999999999998</td>         </tr>                  <tr>             <td>-768.32</td>             <td>-768.32</td>             <td>0</td>             <td>0.0</td>             <td>2025-07-06</td>             <td>331.20899999999995</td>         </tr>                  <tr>             <td>768.32</td>             <td>768.32</td>             <td>0</td>             <td>0.0</td>             <td>2024-07-03</td>             <td>331.20899999999995</td>         </tr>                  <tr>             <td>-548.8</td>             <td>-548.8</td>             <td>0</td>             <td>0.0</td>             <td>2025-01-10</td>             <td>224.76999999999998</td>         </tr>                  <tr>             <td>548.8</td>             <td>548.8</td>             <td>0</td>             <td>0.0</td>             <td>2024-02-06</td>             <td>224.76999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>82.5</td>             <td>2023-12-23</td>             <td>496.3252</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>82.5</td>             <td>2025-08-29</td>             <td>496.3252</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_b75cb944cb1905b508f2946a3e1cadf8.setContent(html_f6e0b206840518615c42c3563983057b);
+            
+        
+
+        circle_marker_18c2e7d63b9467daa728684ff0eaaac7.bindPopup(popup_b75cb944cb1905b508f2946a3e1cadf8)
+        ;
+
+        
+    
+    
+            var circle_marker_168af70bda096dd01139ee2430e13a59 = L.circleMarker(
+                [-28.016, 153.4],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_6dd127576dd061e855702b6b8b0366cf = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_74b3d361249ef06e2e1df05634f169c3 = $(`<div id="html_74b3d361249ef06e2e1df05634f169c3" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> QNTMQ<br>         <strong>Company:</strong> Quantum Quasar Quarter<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>11.0</td>             <td>2025-01-27</td>             <td>792126.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>12.0</td>             <td>2025-11-28</td>             <td>545686.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2.0</td>             <td>2025-01-23</td>             <td>422371.8</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>18.0</td>             <td>2024-12-03</td>             <td>333968.39999999997</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2024-09-09</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>6.0</td>             <td>2025-06-02</td>             <td>106456.49999999999</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2024-07-28</td>             <td>159869.6</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4.0</td>             <td>2025-06-01</td>             <td>159869.6</td>         </tr>                  <tr>             <td>11.0</td>             <td>11.0</td>             <td>0</td>             <td>-11.0</td>             <td>2024-01-17</td>             <td>792126.0</td>         </tr>                  <tr>             <td>12.0</td>             <td>12.0</td>             <td>0</td>             <td>-12.0</td>             <td>2024-12-26</td>             <td>545686.8</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_6dd127576dd061e855702b6b8b0366cf.setContent(html_74b3d361249ef06e2e1df05634f169c3);
+            
+        
+
+        circle_marker_168af70bda096dd01139ee2430e13a59.bindPopup(popup_6dd127576dd061e855702b6b8b0366cf)
+        ;
+
+        
+    
+    
+            var circle_marker_cb450e553877ec3cd81f7415713f7e60 = L.circleMarker(
+                [-16.922, 145.771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_7644d03e50f33bfe64a9698e273cd8f4 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_acba6c953b6184cec12761565ca90df7 = $(`<div id="html_acba6c953b6184cec12761565ca90df7" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> HYPNX<br>         <strong>Company:</strong> Hypernova Haven<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19800.0</td>             <td>2025-11-28</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19800.0</td>             <td>2023-11-15</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2024-06-02</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>29040.0</td>             <td>2024-05-03</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-19800.0</td>             <td>2024-10-10</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>19800.0</td>             <td>19800.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-08-29</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-19800.0</td>             <td>2025-01-17</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>19800.0</td>             <td>19800.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-09-07</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-39600.0</td>             <td>2025-03-10</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>39600.0</td>             <td>39600.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-05-06</td>             <td>189.92999999999998</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_7644d03e50f33bfe64a9698e273cd8f4.setContent(html_acba6c953b6184cec12761565ca90df7);
+            
+        
+
+        circle_marker_cb450e553877ec3cd81f7415713f7e60.bindPopup(popup_7644d03e50f33bfe64a9698e273cd8f4)
+        ;
+
+        
+    
+    
+            var circle_marker_30d547d69a9c59cb603636681b996545 = L.circleMarker(
+                [-33.867, 151.207],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_7f416b52efbe523cbc8d1e5f8da5dc48 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_da536b258d991fa41517b0f28068676a = $(`<div id="html_da536b258d991fa41517b0f28068676a" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> CBRSX<br>         <strong>Company:</strong> Cyberspace Chasm<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>39600.0</td>             <td>2025-07-26</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>2640.0</td>             <td>2024-02-10</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>5280.0</td>             <td>2024-03-03</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-39600.0</td>             <td>2025-01-02</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>39600.0</td>             <td>39600.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-01-10</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-2640.0</td>             <td>2025-09-22</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>2640.0</td>             <td>2640.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-12-18</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-5280.0</td>             <td>2025-06-08</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>5280.0</td>             <td>5280.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-12-10</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>-5280.0</td>             <td>0.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-10-04</td>             <td>nan</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_7f416b52efbe523cbc8d1e5f8da5dc48.setContent(html_da536b258d991fa41517b0f28068676a);
+            
+        
+
+        circle_marker_30d547d69a9c59cb603636681b996545.bindPopup(popup_7f416b52efbe523cbc8d1e5f8da5dc48)
+        ;
+
+        
+    
+    
+            var circle_marker_ad3a4cc7221b2915b91181771b3e95f4 = L.circleMarker(
+                [-33.868, 151.209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_ed55d24b759b21bba804c3262a918555 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_ccc863b98555a2df35a371bab43a161b = $(`<div id="html_ccc863b98555a2df35a371bab43a161b" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> STRLT<br>         <strong>Company:</strong> Starlight Sanctuary<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19800.0</td>             <td>2024-07-16</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19800.0</td>             <td>2024-10-27</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19800.0</td>             <td>2025-07-28</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>19800.0</td>             <td>2024-08-17</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-19800.0</td>             <td>2023-12-03</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-19800.0</td>             <td>2024-02-27</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>19800.0</td>             <td>19800.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-07-01</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>19800.0</td>             <td>19800.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-10-13</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-19800.0</td>             <td>2024-01-03</td>             <td>189.92999999999998</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-19800.0</td>             <td>2024-11-08</td>             <td>189.92999999999998</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_ed55d24b759b21bba804c3262a918555.setContent(html_ccc863b98555a2df35a371bab43a161b);
+            
+        
+
+        circle_marker_ad3a4cc7221b2915b91181771b3e95f4.bindPopup(popup_ed55d24b759b21bba804c3262a918555)
+        ;
+
+        
+    
+    
+            var circle_marker_c9cb23248f8cf1299d20d308074b324e = L.circleMarker(
+                [-32.925, 151.781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_b8d525557882b9722bbbe52ecc79ca35 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_2fe0da1c40ec9e75ddce4f65004a52a1 = $(`<div id="html_2fe0da1c40ec9e75ddce4f65004a52a1" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> VLTYS<br>         <strong>Company:</strong> Velvet Skyway<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>4952.0</td>             <td>2025-08-23</td>             <td>140.959</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-4952.0</td>             <td>2025-01-01</td>             <td>140.959</td>         </tr>                  <tr>             <td>4952.0</td>             <td>4952.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-04-25</td>             <td>140.959</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>22680.0</td>             <td>2025-05-24</td>             <td>143.0182</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>460.0</td>             <td>2024-11-14</td>             <td>0.0</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-22680.0</td>             <td>2025-04-15</td>             <td>143.0182</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>-460.0</td>             <td>2024-08-19</td>             <td>0.0</td>         </tr>                  <tr>             <td>22680.0</td>             <td>22680.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-11-21</td>             <td>143.0182</td>         </tr>                  <tr>             <td>460.0</td>             <td>460.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-07-05</td>             <td>0.0</td>         </tr>                  <tr>             <td>-22680.0</td>             <td>-22680.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-06-24</td>             <td>nan</td>         </tr>         </table><div>Only top 10 items displayed. See more on detailed report.</div>     </div>     </div>`)[0];
+                popup_b8d525557882b9722bbbe52ecc79ca35.setContent(html_2fe0da1c40ec9e75ddce4f65004a52a1);
+            
+        
+
+        circle_marker_c9cb23248f8cf1299d20d308074b324e.bindPopup(popup_b8d525557882b9722bbbe52ecc79ca35)
+        ;
+
+        
+    
+    
+            var circle_marker_a3a1e54562f4e233224b251d23e54993 = L.circleMarker(
+                [-42.882, 147.327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_ffe45ded2dca376c45620a7feecfdb24 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_16673ad1da1d6861a76e9c6a187900a4 = $(`<div id="html_16673ad1da1d6861a76e9c6a187900a4" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> HYPNN<br>         <strong>Company:</strong> Hyperspace Hinterland<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>27.0</td>             <td>2024-01-17</td>             <td>846.896</td>         </tr>                  <tr>             <td>27.0</td>             <td>27.0</td>             <td>0</td>             <td>-27.0</td>             <td>2023-12-29</td>             <td>846.896</td>         </tr>                  <tr>             <td>-27.0</td>             <td>0.0</td>             <td>0</td>             <td>0.0</td>             <td>2026-01-08</td>             <td>nan</td>         </tr>                  <tr>             <td>0.0</td>             <td>-27.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-09-29</td>             <td>nan</td>         </tr>         </table>     </div>     </div>`)[0];
+                popup_ffe45ded2dca376c45620a7feecfdb24.setContent(html_16673ad1da1d6861a76e9c6a187900a4);
+            
+        
+
+        circle_marker_a3a1e54562f4e233224b251d23e54993.bindPopup(popup_ffe45ded2dca376c45620a7feecfdb24)
+        ;
+
+        
+    
+    
+            var circle_marker_3859ef718ebc9ad077f4625055c0415e = L.circleMarker(
+                [-37.813, 144.963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_0f14073093258244c96386b96e069d43 = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_b58651241a18e276b910ef430d89c69f = $(`<div id="html_b58651241a18e276b910ef430d89c69f" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> QNTMC<br>         <strong>Company:</strong> Quantum Quixote Quarters<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>60.0</td>             <td>2025-05-03</td>             <td>846.896</td>         </tr>                  <tr>             <td>60.0</td>             <td>60.0</td>             <td>0</td>             <td>-60.0</td>             <td>2025-01-21</td>             <td>846.896</td>         </tr>                  <tr>             <td>0.0</td>             <td>0.0</td>             <td>0</td>             <td>87.0</td>             <td>2024-09-12</td>             <td>846.896</td>         </tr>                  <tr>             <td>87.0</td>             <td>87.0</td>             <td>0</td>             <td>-87.0</td>             <td>2025-06-07</td>             <td>846.896</td>         </tr>                  <tr>             <td>-60.0</td>             <td>0.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-08-08</td>             <td>nan</td>         </tr>                  <tr>             <td>-87.0</td>             <td>0.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-03-19</td>             <td>nan</td>         </tr>                  <tr>             <td>0.0</td>             <td>-60.0</td>             <td>0</td>             <td>0.0</td>             <td>2025-10-17</td>             <td>nan</td>         </tr>                  <tr>             <td>0.0</td>             <td>-87.0</td>             <td>0</td>             <td>0.0</td>             <td>2024-11-04</td>             <td>nan</td>         </tr>         </table>     </div>     </div>`)[0];
+                popup_0f14073093258244c96386b96e069d43.setContent(html_b58651241a18e276b910ef430d89c69f);
+            
+        
+
+        circle_marker_3859ef718ebc9ad077f4625055c0415e.bindPopup(popup_0f14073093258244c96386b96e069d43)
+        ;
+
+        
+    
+    
+            var circle_marker_affc986bb645ca2f2b2c88a7ef22aad5 = L.circleMarker(
+                [-32.925, 151.781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_2c10622401482f02593e9386856b3942);
+        
+    
+        var popup_7455118857cc7b238a65b2720d2195ff = L.popup({"maxWidth": 400});
+
+        
+            
+                var html_c6047610cab01b925afb20b48cca9f55 = $(`<div id="html_c6047610cab01b925afb20b48cca9f55" style="width: 100.0%; height: 100.0%;">     <div style='width:360px;'>         <h4>Warehouse Details</h4>         <strong>Warehouse Code:</strong> COSCX<br>         <strong>Company:</strong> Cosmic Canopy Junction<br>         <h4>Inventory Summary:</h4>              <style>         table { width: 100%; border-collapse: collapse; }         th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }     </style>     <table>         <tr>             <th>Available</th>             <th>Inventory</th>             <th>Damaged</th>             <th>In Transit</th>             <th>Effective Date</th>             <th>Unit Rate</th>         </tr>              <tr>             <td>14800.0</td>             <td>14800.0</td>             <td>0</td>             <td>-14800.0</td>             <td>2025-02-15</td>             <td>316.1664</td>         </tr>         </table>     </div>     </div>`)[0];
+                popup_7455118857cc7b238a65b2720d2195ff.setContent(html_c6047610cab01b925afb20b48cca9f55);
+            
+        
+
+        circle_marker_affc986bb645ca2f2b2c88a7ef22aad5.bindPopup(popup_7455118857cc7b238a65b2720d2195ff)
+        ;
+
+        
+    
+</script>
+</html>

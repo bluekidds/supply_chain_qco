@@ -1,0 +1,347 @@
+L3,L3 Desc,L4,L4 Desc,L5,Item,Description,Level,Responsible (From OBS),Commentary,,wbs-code,,,
+A1,QH Costs,00,QH Costs,000,100000,QH Costs,3,,Double up with Staff,,BR-P4-A1-00-000,BRIP4100000,,BRIP4100000
+A1,QH Costs,10,QH Delivery (Staff),000,A110000,QH Delivery (Staff),4,,Renumbered from zero to 1,,BR-P4-A1-10-000,BRIP4A110000,BRIP410000,BRIP4A110000
+A1,QH Costs,10,QH Delivery (Staff),010,A110010,Project (Staff),5,Leah Mckenzie,,,BR-P4-A1-10-010,BRIP4A110010,BRIP410010,BRIP4A110010
+A1,QH Costs,10,QH Delivery (Staff),020,A110020,Commercial  (Staff),5,Jason Long,,,BR-P4-A1-10-020,BRIP4A110020,BRIP410020,BRIP4A110020
+A1,QH Costs,10,QH Delivery (Staff),030,A110030,Engineering Assurance (Staff),5,Head of Assets & Engineering ,,,BR-P4-A1-10-030,BRIP4A110030,BRIP410030,BRIP4A110030
+A1,QH Costs,10,QH Delivery (Staff),040,A110040,Health & Safety (Staff),5,Kelly Palmer,,,BR-P4-A1-10-040,BRIP4A110040,BRIP410040,BRIP4A110040
+A1,QH Costs,10,QH Delivery (Staff),050,A110050,Project Controls (Staff),5,Mike Wells,,,BR-P4-A1-10-050,BRIP4A110050,BRIP410050,BRIP4A110050
+A1,QH Costs,10,QH Delivery (Staff),060,A110060,Environment (Staff) ,5,Andrew Nolan,,,BR-P4-A1-10-060,BRIP4A110060,BRIP410060,BRIP4A110060
+A1,QH Costs,10,QH Delivery (Staff),070,A110070,Community and Stakeholder (Staff),5,Julie Spencer,,,BR-P4-A1-10-070,BRIP4A110070,BRIP410070,BRIP4A110070
+A1,QH Costs,10,QH Delivery (Staff),080,A110080,Land (Staff),5,Head of Land (Darryl Pascal),,,BR-P4-A1-10-080,BRIP4A110080,BRIP410080,BRIP4A110080
+A1,QH Costs,10,QH Delivery (Staff),090,A110090,Regional Development (Staff),5,Tracey Lyons,,,BR-P4-A1-10-090,BRIP4A110090,BRIP410090,BRIP4A110090
+A1,QH Costs,10,QH Delivery (Staff),100,A110100,Quality (Staff),5,Finton Moore ,,,BR-P4-A1-10-100,BRIP4A110100,BRIP410100,BRIP4A110100
+A1,QH Costs,20,Project Contractors,000,A120000,Project Contractors,4,,,,BR-P4-A1-20-000,BRIP4A120000,BRIP411000,BRIP4A120000
+A1,QH Costs,20,Project Contractors,010,A120010,Project Support,5,Leah Mckenzie,,,BR-P4-A1-20-010,BRIP4A120010,BRIP411010,BRIP4A120010
+A1,QH Costs,20,Project Contractors,020,A120020,Commercial Pre-Contracts ,5,Jason Long,,,BR-P4-A1-20-020,BRIP4A120020,BRIP411020,BRIP4A120020
+A1,QH Costs,20,Project Contractors,030,A120030,Commercial - Contracts Admin,5,Jason Long,,,BR-P4-A1-20-030,BRIP4A120030,BRIP411030,BRIP4A120030
+A1,QH Costs,20,Project Contractors,040,A120040,Project Controls,5,Mike Wells,,,BR-P4-A1-20-040,BRIP4A120040,BRIP411040,BRIP4A120040
+A1,QH Costs,20,Project Contractors,050,A120050,Legal,5,Erin McCormick ,,,BR-P4-A1-20-050,BRIP4A120050,BRIP411050,BRIP4A120050
+A1,QH Costs,20,Project Contractors,060,A120060,Health and Safety Consultants,5,Kelly Palmer,Split from H&S L4,,BR-P4-A1-20-060,BRIP4A120060,BRIP415020,BRIP4A120060
+A1,QH Costs,20,Project Contractors,070,A120070,Engineering Assurance ,5,Head of Assets & Engineering ,,,BR-P4-A1-20-070,BRIP4A120070,BRIP411060,BRIP4A120070
+A1,QH Costs,20,Project Contractors,080,A120080,Operation and Maintenance Strategy,5,Head of Assets & Engineering ,,,BR-P4-A1-20-080,BRIP4A120080,BRIP411070,BRIP4A120080
+A1,QH Costs,30,Engineering ,000,A130000,Engineering ,4,,,,BR-P4-A1-30-000,BRIP4A130000,BRIP412000,BRIP4A130000
+A1,QH Costs,30,Engineering ,010,A130010, Specialist Engineering - External Advisory Services,5,Bradley Norwood,,,BR-P4-A1-30-010,BRIP4A130010,BRIP412010,BRIP4A130010
+A1,QH Costs,30,Engineering ,020,A130020,Specialist Engineering - Owners Engineer,5,Bradley Norwood,,,BR-P4-A1-30-020,BRIP4A130020,BRIP412020,BRIP4A130020
+A1,QH Costs,30,Engineering ,030,A130030,Specialist Engineering - Design for Procurement,5,Bradley Norwood,,,BR-P4-A1-30-030,BRIP4A130030,BRIP412030,BRIP4A130030
+A1,QH Costs,30,Engineering ,040,A130040,Specialist Engineering - FEED,5,Bradley Norwood,,,BR-P4-A1-30-040,BRIP4A130040,BRIP412040,BRIP4A130040
+A1,QH Costs,30,Engineering ,050,A130050,Specialist Engineering - Exploratory Works,5,Bradley Norwood,,,BR-P4-A1-30-050,BRIP4A130050,BRIP412050,BRIP4A130050
+A1,QH Costs,30,Engineering ,060,A130060,Specialist Advisors - Technical Assurance,5,Bradley Norwood,,,BR-P4-A1-30-060,BRIP4A130060,BRIP412060,BRIP4A130060
+A1,QH Costs,30,Engineering ,070,A130070,Connection Application Process/Services,5,Bradley Norwood,,,BR-P4-A1-30-070,BRIP4A130070,BRIP412070,BRIP4A130070
+A1,QH Costs,30,Engineering ,080,A130080,Independent certifier,5,Bradley Norwood,,,BR-P4-A1-30-080,BRIP4A130080,BRIP412080,BRIP4A130080
+A1,QH Costs,40,Environment and Approvals,000,A140000,Environment and Approvals,4,,,,BR-P4-A1-40-000,BRIP4A140000,BRIP413000,BRIP4A140000
+A1,QH Costs,40,Environment and Approvals,010,A140010,Technical Advisors - EIS Approvals and Studies,5,Andrew Nolan,,,BR-P4-A1-40-010,BRIP4A140010,BRIP413010,BRIP4A140010
+A1,QH Costs,40,Environment and Approvals,020,A140020,EIS - Engineering Input,5,Andrew Nolan,,,BR-P4-A1-40-020,BRIP4A140020,BRIP413020,BRIP4A140020
+A1,QH Costs,40,Environment and Approvals,030,A140030,EIS - Technical Studies,5,Andrew Nolan,,,BR-P4-A1-40-030,BRIP4A140030,BRIP413030,BRIP4A140030
+A1,QH Costs,40,Environment and Approvals,040,A140040,Exploratory Works Approvals,5,Andrew Nolan,,,BR-P4-A1-40-040,BRIP4A140040,BRIP413040,BRIP4A140040
+A1,QH Costs,40,Environment and Approvals,050,A140050,Main Works - Approvals,5,Andrew Nolan,,,BR-P4-A1-40-050,BRIP4A140050,BRIP413050,BRIP4A140050
+A1,QH Costs,40,Environment and Approvals,060,A140060,Offset Implementation,5,Andrew Nolan,,,BR-P4-A1-40-060,BRIP4A140060,BRIP413060,BRIP4A140060
+A1,QH Costs,40,Environment and Approvals,070,A140070,Sustainability,5,Andrew Nolan,,,BR-P4-A1-40-070,BRIP4A140070,BRIP413070,BRIP4A140070
+A1,QH Costs,40,Environment and Approvals,080,A140080,Office of the Coordinator-General (OCG Costs),5,Andrew Nolan,,,BR-P4-A1-40-080,BRIP4A140080,BRIP413080,BRIP4A140080
+A1,QH Costs,40,Environment and Approvals,090,A140090,EIS - Delivery,5,Andrew Nolan,,,BR-P4-A1-40-090,BRIP4A140090,BRIP413090,BRIP4A140090
+A1,QH Costs,40,Environment and Approvals,100,A140100,GIS Support,5,Finton Moore ,,,BR-P4-A1-40-100,BRIP4A140100,BRIP413100,BRIP4A140100
+A1,QH Costs,40,Environment and Approvals,110,A140110,Cultural Heritage - Investigations and Monitoring,5,Andrew Nolan,,,BR-P4-A1-40-110,BRIP4A140110,BRIP413110,BRIP4A140110
+A1,QH Costs,40,Environment and Approvals,120,A140120,Indigenous Land Use Agreement,5,Head of Indigeneous Partnerships Vacant,,,BR-P4-A1-40-120,BRIP4A140120,BRIP413120,BRIP4A140120
+A1,QH Costs,40,Environment and Approvals,130,A140130,Compliance Monitoring,5,Andrew Nolan,,,BR-P4-A1-40-130,BRIP4A140130,BRIP413130,BRIP4A140130
+A1,QH Costs,40,Environment and Approvals,140,A140140,Indigenous Partnerships,5,Head of Indigeneous Partnerships Vacant,,,BR-P4-A1-40-140,BRIP4A140140,BRIP413140,BRIP4A140140
+A1,QH Costs,50,Community Development and Stakeholder ,000,A150000,Community Development and Stakeholder ,4,,,,BR-P4-A1-50-000,BRIP4A150000,BRIP414000,BRIP4A150000
+A1,QH Costs,50,Community Development and Stakeholder ,010,A150010,Community and Stakeholder Consultants,5,Julie Spencer,,,BR-P4-A1-50-010,BRIP4A150010,BRIP414010,BRIP4A150010
+A1,QH Costs,50,Community Development and Stakeholder ,020,A150020,Community Benefits Program,5,Julie Spencer,,,BR-P4-A1-50-020,BRIP4A150020,BRIP414020,BRIP4A150020
+A1,QH Costs,50,Community Development and Stakeholder ,030,A150030,Sponsorships,5,Julie Spencer,,,BR-P4-A1-50-030,BRIP4A150030,BRIP414030,BRIP4A150030
+A1,QH Costs,50,Community Development and Stakeholder ,040,A150040,Community Engagement Program,5,Julie Spencer,,,BR-P4-A1-50-040,BRIP4A150040,BRIP414040,BRIP4A150040
+A1,QH Costs,50,Community Development and Stakeholder ,050,A150050,Regional Development,5,Tracey Lyons,,,BR-P4-A1-50-050,BRIP4A150050,BRIP414050,BRIP4A150050
+A1,QH Costs,50,Community Development and Stakeholder ,060,A150060,Regional Development Accommodation Partners,5,Tracey Lyons,,,BR-P4-A1-50-060,BRIP4A150060,BRIP414060,BRIP4A150060
+A1,QH Costs,50,Community Development and Stakeholder ,070,A150070,Regional Development Community Infrastructure,5,Tracey Lyons,,,BR-P4-A1-50-070,BRIP4A150070,BRIP414070,BRIP4A150070
+A1,QH Costs,50,Community Development and Stakeholder ,080,A150080,Regional Development - Community Development Initiatives (GRC),5,Tracey Lyons,,,BR-P4-A1-50-080,BRIP4A150080,BRIP414080,BRIP4A150080
+A1,QH Costs,50,Community Development and Stakeholder ,090,A150090,Regional Development - Community Development Initiatives (SRC),5,Tracey Lyons,,,BR-P4-A1-50-090,BRIP4A150090,BRIP414090,BRIP4A150090
+A1,QH Costs,,Heath and Safety ,,A1,Heath and Safety ,4,,Reallocated to Indirect & Project Contractors,,BR-P4-A1--,BRIP4A1,,BRIP4A1
+A1,QH Costs,60,Land Acquisition ,000,A160000,Land Acquisition ,4,,,,BR-P4-A1-60-000,BRIP4A160000,BRIP416000,BRIP4A160000
+A1,QH Costs,60,Land Acquisition ,010,A160010,Land Access & Conveyancing,5,Head of Land,,,BR-P4-A1-60-010,BRIP4A160010,BRIP416010,BRIP4A160010
+A1,QH Costs,60,Land Acquisition ,020,A160020,Land Acquisition,5,Head of Land,,,BR-P4-A1-60-020,BRIP4A160020,BRIP416020,BRIP4A160020
+A1,QH Costs,60,Land Acquisition ,030,A160030,Land Access - Specialist Advisors,5,Head of Land,,,BR-P4-A1-60-030,BRIP4A160030,BRIP416030,BRIP4A160030
+A1,QH Costs,70,Indirect ,000,A170000,Indirect ,4,,,,BR-P4-A1-70-000,BRIP4A170000,BRIP417000,BRIP4A170000
+A1,QH Costs,70,Indirect ,010,A170010,Project Expenses – General,5,Head of Land,,,BR-P4-A1-70-010,BRIP4A170010,BRIP417010,BRIP4A170010
+A1,QH Costs,70,Indirect ,020,A170020,PPE,5,Kelly Palmer,Split from H&S L4,,BR-P4-A1-70-020,BRIP4A170020,BRIP415010,BRIP4A170020
+A1,QH Costs,70,Indirect ,030,A170030,Emergency Response Plan,5,Kelly Palmer,Split from H&S L4,,BR-P4-A1-70-030,BRIP4A170030,BRIP415040,BRIP4A170030
+A1,QH Costs,70,Indirect ,040,A170040,"Travel, Accommodation & Disbursements",5,Leah Mckenzie,,,BR-P4-A1-70-040,BRIP4A170040,BRIP417020,BRIP4A170040
+A1,QH Costs,70,Indirect ,050,A170050,"IT Software, Licenses & Equipment",5,Leah Mckenzie,,,BR-P4-A1-70-050,BRIP4A170050,BRIP417030,BRIP4A170050
+A1,QH Costs,70,Indirect ,060,A170060,Training & Development (Delivery),5,Ashlen Naicker,Renamed (Delivery),,BR-P4-A1-70-060,BRIP4A170060,BRIP417040,BRIP4A170060
+A1,QH Costs,70,Indirect ,070,A170070,Mandatory Safety Training ,5,Head of People and Capability,Split from H&S L4,,BR-P4-A1-70-070,BRIP4A170070,BRIP415030,BRIP4A170070
+A1,QH Costs,70,Indirect ,080,A170080,Site Vehicles and Transport,5,Leah Mckenzie,,,BR-P4-A1-70-080,BRIP4A170080,BRIP417050,BRIP4A170080
+A1,QH Costs,70,Indirect ,090,A170090,Project Offices and Facilities ,5,Leah Mckenzie,,,BR-P4-A1-70-090,BRIP4A170090,BRIP417060,BRIP4A170090
+A1,QH Costs,70,Indirect ,100,A170100,Portable Long Service Leave Levy,5,Amy Treble,,,BR-P4-A1-70-100,BRIP4A170100,BRIP417070,BRIP4A170100
+A1,QH Costs,70,Indirect ,110,A170110,Insurances ,5,Amy Treble,,,BR-P4-A1-70-110,BRIP4A170110,BRIP417080,BRIP4A170110
+A1,QH Costs,70,Indirect ,120,A170120,Bid cost reimbursement,5,Jason Long,,,BR-P4-A1-70-120,BRIP4A170120,BRIP417090,BRIP4A170120
+A1,QH Costs,70,Indirect ,130,A170130,Site Equipment & Tooling,5,Leah Mckenzie,,,BR-P4-A1-70-130,BRIP4A170130,BRIP417100,BRIP4A170130
+A1,QH Costs,70,Indirect ,140,A170140,Corporate Overheads,5,Amy Treble,,,BR-P4-A1-70-140,BRIP4A170140,BRIP417110,BRIP4A170140
+A1,QH Costs,70,Indirect ,150,A170150,Legal Costs,5,Erin McCormick ,,,BR-P4-A1-70-150,BRIP4A170150,BRIP417120,BRIP4A170150
+A1,QH Costs,70,Indirect ,160,A170160,Site Communications,5,Ashlen Naicker,,,BR-P4-A1-70-160,BRIP4A170160,BRIP417130,BRIP4A170160
+A1,QH Costs,70,Indirect ,170,A170170,Finance costs (FBT),5,Amy Treble,,,BR-P4-A1-70-170,BRIP4A170170,BRIP417140,BRIP4A170170
+A1,QH Costs,70,Indirect ,180,A170180,"Other Staff Costs (memberships, subscriptions)",5,Amy Treble,,,BR-P4-A1-70-180,BRIP4A170180,BRIP417150,BRIP4A170180
+A1,QH Costs,80,Ops Readiness & Commissioning ,000,A180000,Ops Readiness & Commissioning ,4,,,,BR-P4-A1-80-000,BRIP4A180000,BRIP418000,BRIP4A180000
+A1,QH Costs,80,Ops Readiness & Commissioning ,010,A180010,Op Readiness,5,Leah Mckenzie,,,BR-P4-A1-80-010,BRIP4A180010,BRIP418010,BRIP4A180010
+A1,QH Costs,80,Ops Readiness & Commissioning ,020,A180020,Commissioning,5,Leah Mckenzie,,,BR-P4-A1-80-020,BRIP4A180020,BRIP418020,BRIP4A180020
+A1,QH Costs,80,Ops Readiness & Commissioning ,030,A180030,Full Load Compliance Testing ,5,Leah Mckenzie,,,BR-P4-A1-80-030,BRIP4A180030,BRIP418030,BRIP4A180030
+A2,Surface Infrastructure and Enabling ,00,Surface Infrastructure and Enabling ,000,A200000,Surface Infrastructure and Enabling ,3,,,,BR-P4-A2-00-000,BRIP4A200000,,BRIP4A200000
+A2,Surface Infrastructure and Enabling ,01,Contractor Indirect & overheads,000,A201000,Contractor Indirect & overheads,4,,,,BR-P4-A2-01-000,BRIP4A201000,BRIP420100,BRIP4A201000
+A2,Surface Infrastructure and Enabling ,01,Surface Infrastructure and Enabling ,010,A201010,Temporary Camps - Indirects and Overheads ,5,Aiden Goggins,,,BR-P4-A2-01-010,BRIP4A201010,BRIP420110,BRIP4A201010
+A2,Surface Infrastructure and Enabling ,01,Surface Infrastructure and Enabling ,020,A201020,Main Camps - Indirects and Overheads ,5,Aiden Goggins,,,BR-P4-A2-01-020,BRIP4A201020,BRIP420120,BRIP4A201020
+A2,Surface Infrastructure and Enabling ,01,Surface Infrastructure and Enabling ,030,A201030,Exploratory Works - Contractor Indirect & overheads,5,Aiden Goggins,,,BR-P4-A2-01-030,BRIP4A201030,BRIP420130,BRIP4A201030
+A2,Surface Infrastructure and Enabling ,01,Surface Infrastructure and Enabling ,040,A201040,Enabling Works  - Contractor Indirect & overheads,5,Aiden Goggins,,,BR-P4-A2-01-040,BRIP4A201040,BRIP420140,BRIP4A201040
+A2,Surface Infrastructure and Enabling ,02,Design,000,A202000,Design,4,,,,BR-P4-A2-02-000,BRIP4A202000,BRIP420200,BRIP4A202000
+A2,Surface Infrastructure and Enabling ,02,Surface Infrastructure and Enabling ,010,A202010,Design - Exploratory Works,5,Bradley Norwood,,,BR-P4-A2-02-010,BRIP4A202010,BRIP420210,BRIP4A202010
+A2,Surface Infrastructure and Enabling ,02,Surface Infrastructure and Enabling ,020,A202020,Design - Enabling Works,5,Bradley Norwood,,,BR-P4-A2-02-020,BRIP4A202020,BRIP420220,BRIP4A202020
+A2,Surface Infrastructure and Enabling ,02,Surface Infrastructure and Enabling ,030,A202030,Temp Camps Design ,5,Bradley Norwood,,,BR-P4-A2-02-030,BRIP4A202030,BRIP420230,BRIP4A202030
+A2,Surface Infrastructure and Enabling ,03,Camps,000,A203000,Camps,4,,,,BR-P4-A2-03-000,BRIP4A203000,BRIP420300,BRIP4A203000
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,010,A203010,Temp Camps,5,Aiden Goggins,,,BR-P4-A2-03-010,BRIP4A203010,BRIP420310,BRIP4A203010
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,020,A203020,Upper Res Camps Hardstand,5,Aiden Goggins,,,BR-P4-A2-03-020,BRIP4A203020,BRIP420320,BRIP4A203020
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,030,A203030,Lower Res Camps Hardstand,5,Aiden Goggins,,,BR-P4-A2-03-030,BRIP4A203030,BRIP420330,BRIP4A203030
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,040,A203040,Main Camps Hardstand,5,Aiden Goggins,,,BR-P4-A2-03-040,BRIP4A203040,BRIP420340,BRIP4A203040
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,050,A203050,Upper Res Camps Install and Operate,5,Clifford Hookham,,,BR-P4-A2-03-050,BRIP4A203050,BRIP420350,BRIP4A203050
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,060,A203060,Lower Res Camps Install and Operate,5,Aiden Goggins,,,BR-P4-A2-03-060,BRIP4A203060,BRIP420360,BRIP4A203060
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,070,A203070,Main Camps Install and Operate,5,Aiden Goggins,,,BR-P4-A2-03-070,BRIP4A203070,BRIP420370,BRIP4A203070
+A2,Surface Infrastructure and Enabling ,03,Surface Infrastructure and Enabling ,080,A203080,Camp Set up ,5,Aiden Goggins,,,BR-P4-A2-03-080,BRIP4A203080,BRIP420380,BRIP4A203080
+A2,Surface Infrastructure and Enabling ,04,Geotechnical ,000,A204000,Geotechnical ,4,,,,BR-P4-A2-04-000,BRIP4A204000,BRIP420400,BRIP4A204000
+A2,Surface Infrastructure and Enabling ,04,Geotechnical ,010,A204010,Contractor Indirect & overheads,5,Clifford Hookham,,,BR-P4-A2-04-010,BRIP4A204010,BRIP420410,BRIP4A204010
+A2,Surface Infrastructure and Enabling ,04,Geotechnical ,020,A204020,Geotechnical Studies,5,Head of Assets & Engineering ,,,BR-P4-A2-04-020,BRIP4A204020,BRIP420420,BRIP4A204020
+A2,Surface Infrastructure and Enabling ,04,Geotechnical ,030,A204030,Geotechnical Drilling,5,Clifford Hookham,,,BR-P4-A2-04-030,BRIP4A204030,BRIP420430,BRIP4A204030
+A2,Surface Infrastructure and Enabling ,04,Geotechnical ,040,A204040,Geotechnical Service Management ,5,Clifford Hookham,,,BR-P4-A2-04-040,BRIP4A204040,BRIP420440,BRIP4A204040
+A2,Surface Infrastructure and Enabling ,05,Temporary Water Infrastructure ,000,A205000,Temporary Water Infrastructure ,4,,,,BR-P4-A2-05-000,BRIP4A205000,BRIP420500,BRIP4A205000
+A2,Surface Infrastructure and Enabling ,05,Temporary Water Infrastructure ,010,A205010,Preliminaries Temporary Water Infrastructure,5,Aiden Goggins,,,BR-P4-A2-05-010,BRIP4A205010,BRIP420510,BRIP4A205010
+A2,Surface Infrastructure and Enabling ,05,Temporary Water Infrastructure ,020,A205020,Temporary Water Infrastructure ,5,Aiden Goggins,,,BR-P4-A2-05-020,BRIP4A205020,BRIP420520,BRIP4A205020
+A2,Surface Infrastructure and Enabling ,05,Temporary Water Infrastructure ,030,A205030,Temporary Water Supply,5,Aiden Goggins,,,BR-P4-A2-05-030,BRIP4A205030,BRIP420530,BRIP4A205030
+A2,Surface Infrastructure and Enabling ,06,Communication Infrastructure Upgrade ,000,A206000,Communication Infrastructure Upgrade ,4,,,,BR-P4-A2-06-000,BRIP4A206000,BRIP420600,BRIP4A206000
+A2,Surface Infrastructure and Enabling ,06,Communication Infrastructure Upgrade ,010,A206010,Preliminaries Communication Infrastructure Upgrade ,5,Aiden Goggins,,,BR-P4-A2-06-010,BRIP4A206010,BRIP420610,BRIP4A206010
+A2,Surface Infrastructure and Enabling ,06,Communication Infrastructure Upgrade ,020,A206020,Communication Infrastructure Upgrade ,5,Aiden Goggins,,,BR-P4-A2-06-020,BRIP4A206020,BRIP420620,BRIP4A206020
+A2,Surface Infrastructure and Enabling ,07,Power Supply Upgrade,000,A207000,Power Supply Upgrade,4,,,,BR-P4-A2-07-000,BRIP4A207000,BRIP420700,BRIP4A207000
+A2,Surface Infrastructure and Enabling ,07,Power Supply Upgrade,010,A207010,Preliminaries Power Supply Upgrade,5,Aiden Goggins,,,BR-P4-A2-07-010,BRIP4A207010,BRIP420710,BRIP4A207010
+A2,Surface Infrastructure and Enabling ,07,Power Supply Upgrade,020,A207020,Power Supply Upgrade,5,Aiden Goggins,,,BR-P4-A2-07-020,BRIP4A207020,BRIP420720,BRIP4A207020
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,000,A210000,Yabba Creek Road Option 1,4,,,,BR-P4-A2-10-000,BRIP4A210000,BRIP421000,BRIP4A210000
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,010,A210010,Preliminaries Yabba Ck Rd Option 1,5,Aiden Goggins,,,BR-P4-A2-10-010,BRIP4A210010,BRIP421010,BRIP4A210010
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,020,A210020,Bridge 1 (on Yabba Ck Rd - Ana Branche No 1),5,Aiden Goggins,,,BR-P4-A2-10-020,BRIP4A210020,BRIP421020,BRIP4A210020
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,030,A210030,Bridge 2 (on Yabba Ck Rd - Ana Branche No 2),5,Aiden Goggins,,,BR-P4-A2-10-030,BRIP4A210030,BRIP421030,BRIP4A210030
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,040,A210040,Bridge 3  (on Yabba Ck Rd - No 1 Crossing - Neumans Crossing),5,Aiden Goggins,,,BR-P4-A2-10-040,BRIP4A210040,BRIP421040,BRIP4A210040
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,050,A210050,Bridge 4 (on Yabba Ck Rd - No 2 Crossing - Elbow Crossing),5,Aiden Goggins,,,BR-P4-A2-10-050,BRIP4A210050,BRIP421050,BRIP4A210050
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,060,A210060,Bridge 5 (on Yabba Ck Rd - No 3 Crossing - Andrews Crossing),5,Aiden Goggins,,,BR-P4-A2-10-060,BRIP4A210060,BRIP421060,BRIP4A210060
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,070,A210070,Bridge 6 (on Yabba Ck Rd - No ? Crossing - ????),5,Aiden Goggins,,,BR-P4-A2-10-070,BRIP4A210070,BRIP421070,BRIP4A210070
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,080,A210080,Bridge 7 (on Yabba Ck Rd - No 4 Crossing - Boardmans Crossing),5,Aiden Goggins,,,BR-P4-A2-10-080,BRIP4A210080,BRIP421080,BRIP4A210080
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,090,A210090,Bridge 8 (on Yabba Ck Rd - No 5 Crossing - Friends Crossing),5,Aiden Goggins,,,BR-P4-A2-10-090,BRIP4A210090,BRIP421090,BRIP4A210090
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,100,A210100,Bridge 9 (on Yabba Ck Rd - No 6 Crossing - Deep  Crossing),5,Aiden Goggins,,,BR-P4-A2-10-100,BRIP4A210100,BRIP421100,BRIP4A210100
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,110,A210110,Bridge 10 (on Yabba Ck Rd - No 7 - Crossing - unknown name),5,Aiden Goggins,,,BR-P4-A2-10-110,BRIP4A210110,BRIP421110,BRIP4A210110
+A2,Surface Infrastructure and Enabling ,10,Yabba Creek Road Option 1,120,A210120,Upgrade Bella Creek Road intersection,5,Aiden Goggins,,,BR-P4-A2-10-120,BRIP4A210120,BRIP421120,BRIP4A210120
+A2,Surface Infrastructure and Enabling ,12,Old Forestry Drive Option 2,000,A212000,Old Forestry Drive Option 2,4,,,,BR-P4-A2-12-000,BRIP4A212000,BRIP421200,BRIP4A212000
+A2,Surface Infrastructure and Enabling ,12,Old Forestry Drive Option 2,010,A212010,Preliminaries Old Forestry Drive Option 2,5,Aiden Goggins,,,BR-P4-A2-12-010,BRIP4A212010,BRIP421210,BRIP4A212010
+A2,Surface Infrastructure and Enabling ,12,Old Forestry Drive Option 2,020,A212020,Old Forestry Drive Option 2 Construction ,5,Aiden Goggins,,,BR-P4-A2-12-020,BRIP4A212020,BRIP421220,BRIP4A212020
+A2,Surface Infrastructure and Enabling ,13,Yielo Rd,000,A213000,Yielo Rd,4,,,,BR-P4-A2-13-000,BRIP4A213000,BRIP421300,BRIP4A213000
+A2,Surface Infrastructure and Enabling ,13,Yielo Rd,010,A213010,Preliminaries Upgrade of Yielo Rd,5,Aiden Goggins,,,BR-P4-A2-13-010,BRIP4A213010,BRIP421310,BRIP4A213010
+A2,Surface Infrastructure and Enabling ,13,Yielo Rd,020,A213020,Upgrade of Yielo Rd Construction ,5,Aiden Goggins,,,BR-P4-A2-13-020,BRIP4A213020,BRIP421320,BRIP4A213020
+A2,Surface Infrastructure and Enabling ,14,Walkers Top Access Track,000,A214000,Walkers Top Access Track,4,,,,BR-P4-A2-14-000,BRIP4A214000,BRIP421400,BRIP4A214000
+A2,Surface Infrastructure and Enabling ,14,Walkers Top Access Track,010,A214010,Preliminaries Walkers Top Access Track,5,Aiden Goggins,,,BR-P4-A2-14-010,BRIP4A214010,BRIP421410,BRIP4A214010
+A2,Surface Infrastructure and Enabling ,14,Walkers Top Access Track,020,A214020,Walkers Top Access Track Construction,5,Aiden Goggins,,,BR-P4-A2-14-020,BRIP4A214020,BRIP421420,BRIP4A214020
+A2,Surface Infrastructure and Enabling ,15,Access Roads - The Borgan,000,A215000,Access Roads - The Borgan,4,,,,BR-P4-A2-15-000,BRIP4A215000,BRIP421500,BRIP4A215000
+A2,Surface Infrastructure and Enabling ,15,Access Roads - The Borgan,010,A215010,Preliminaries Access Roads - The Borgan,5,Aiden Goggins,,,BR-P4-A2-15-010,BRIP4A215010,BRIP421510,BRIP4A215010
+A2,Surface Infrastructure and Enabling ,15,Access Roads - The Borgan,020,A215020,Access Roads - The Borgan,5,Aiden Goggins,,,BR-P4-A2-15-020,BRIP4A215020,BRIP421520,BRIP4A215020
+A2,Surface Infrastructure and Enabling ,16,Lower Res Access Road ,000,A216000,Lower Res Access Road ,4,,,,BR-P4-A2-16-000,BRIP4A216000,BRIP421600,BRIP4A216000
+A2,Surface Infrastructure and Enabling ,16,Lower Res Access Road ,010,A216010,Lower Res Access Road ,5,Aiden Goggins,,,BR-P4-A2-16-010,BRIP4A216010,BRIP421610,BRIP4A216010
+A2,Surface Infrastructure and Enabling ,17,Lower Res Haul Road - Construct and Maintain,000,A217000,Lower Res Haul Road - Construct and Maintain,4,,,,BR-P4-A2-17-000,BRIP4A217000,BRIP421700,BRIP4A217000
+A2,Surface Infrastructure and Enabling ,17,Lower Res Haul Road - Construct and Maintain,010,A217010,Lower Res Haul Road - Construct and Maintain,5,Steve Pickering,,,BR-P4-A2-17-010,BRIP4A217010,BRIP421710,BRIP4A217010
+A2,Surface Infrastructure and Enabling ,18,Bella Creek Road ,000,A218000,Bella Creek Road ,4,,,,BR-P4-A2-18-000,BRIP4A218000,BRIP421800,BRIP4A218000
+A2,Surface Infrastructure and Enabling ,18,Bella Creek Road ,010,A218010,Bella Creek Road ,5,Aiden Goggins,,,BR-P4-A2-18-010,BRIP4A218010,BRIP421810,BRIP4A218010
+A2,Surface Infrastructure and Enabling ,19,Yabba Creek Bridge  ,000,A219000,Yabba Creek Bridge  ,4,,,,BR-P4-A2-19-000,BRIP4A219000,BRIP421900,BRIP4A219000
+A2,Surface Infrastructure and Enabling ,19,Yabba Creek Bridge  ,010,A219010,Yabba Creek Bridge  ,5,Aiden Goggins,,,BR-P4-A2-19-010,BRIP4A219010,BRIP421910,BRIP4A219010
+A2,Surface Infrastructure and Enabling ,20,Kingaham Creek Bridge ,000,A220000,Kingaham Creek Bridge ,4,,,,BR-P4-A2-20-000,BRIP4A220000,BRIP422000,BRIP4A220000
+A2,Surface Infrastructure and Enabling ,20,Kingaham Creek Bridge ,010,A220010,Kingaham Creek Bridge ,5,Aiden Goggins,,,BR-P4-A2-20-010,BRIP4A220010,BRIP422010,BRIP4A220010
+A2,Surface Infrastructure and Enabling ,21,Road to Lower Inlet / Outlet Structure,000,A221000,Road to Lower Inlet / Outlet Structure,4,,,,BR-P4-A2-21-000,BRIP4A221000,BRIP422100,BRIP4A221000
+A2,Surface Infrastructure and Enabling ,21,Road to Lower Inlet / Outlet Structure,010,A221010,Road to Lower Inlet / Outlet Structure,5,Aiden Goggins,,,BR-P4-A2-21-010,BRIP4A221010,BRIP422110,BRIP4A221010
+A2,Surface Infrastructure and Enabling ,22,Road to Upper Res/Saddle Dam,000,A222000,Road to Upper Res/Saddle Dam,4,,,,BR-P4-A2-22-000,BRIP4A222000,BRIP422200,BRIP4A222000
+A2,Surface Infrastructure and Enabling ,22,Road to Upper Res/Saddle Dam,010,A222010,Road to Upper Res/Saddle Dam,5,Aiden Goggins,,,BR-P4-A2-22-010,BRIP4A222010,BRIP422210,BRIP4A222010
+A2,Surface Infrastructure and Enabling ,23,Ring Road at Upper Res incl. Access to upper intake and Bellmouth ,000,A223000,Ring Road at Upper Res incl. Access to upper intake and Bellmouth ,4,,,,BR-P4-A2-23-000,BRIP4A223000,BRIP422200,BRIP4A223000
+A2,Surface Infrastructure and Enabling ,23,Ring Road at Upper Res incl. Access to upper intake and Bellmouth ,010,A223010,Ring Road at Upper Res incl. Access to upper intake and Bellmouth ,5,Aiden Goggins,,,BR-P4-A2-23-010,BRIP4A223010,BRIP422210,BRIP4A223010
+A2,Surface Infrastructure and Enabling ,24,MAT / ECVT Portal Pad Excavation,000,A224000,MAT / ECVT Portal Pad Excavation,4,,,,BR-P4-A2-24-000,BRIP4A224000,BRIP422300,BRIP4A224000
+A2,Surface Infrastructure and Enabling ,24,MAT / ECVT Portal Pad Excavation,010,A224010,MAT / ECVT Portal Pad Excavation,5,Aiden Goggins,,,BR-P4-A2-24-010,BRIP4A224010,BRIP423010,BRIP4A224010
+A3,Underground Waterways ,00,Underground Waterways ,000,A300000,Underground Waterways ,3,,,,BR-P4-A3-00-000,BRIP4A300000,BRIP430100,BRIP4A300000
+A3,Underground Waterways ,01,Contractor Indirect & overheads stage 1,000,A301000,Contractor Indirect & overheads stage 1,4,,,,BR-P4-A3-01-000,BRIP4A301000,BRIP430100,BRIP4A301000
+A3,Underground Waterways ,01,Contractor Indirect & overheads stage 1,110,A301110,Contractor Indirects & overheads,5,Shannon Green,,,BR-P4-A3-01-110,BRIP4A301110,BRIP430110,BRIP4A301110
+A3,Underground Waterways ,02,Design ,000,A302000,Design ,4,,,,BR-P4-A3-02-000,BRIP4A302000,BRIP430200,BRIP4A302000
+A3,Underground Waterways ,02,Design ,210,A302210,Design ,5,Bradley Norwood,,,BR-P4-A3-02-210,BRIP4A302210,BRIP430210,BRIP4A302210
+A3,Underground Waterways ,10,North Alignment Waterway,000,A310000,North Alignment Waterway,4,,,,BR-P4-A3-10-000,BRIP4A310000,BRIP431000,BRIP4A310000
+A3,Underground Waterways ,10,North Alignment Waterway,010,A310010,Upper Inlet/Outlet Structure Bellmouth - North,5,Shannon Green,,,BR-P4-A3-10-010,BRIP4A310010,BRIP431010,BRIP4A310010
+A3,Underground Waterways ,10,North Alignment Waterway,020,A310020,Upper Inlet/Outlet Structure Gate Shaft - North,5,Shannon Green,,,BR-P4-A3-10-020,BRIP4A310020,BRIP431020,BRIP4A310020
+A3,Underground Waterways ,10,North Alignment Waterway,030,A310030,Lower Inlet/Outlet Structure Bellmouth - North,5,Shannon Green,,,BR-P4-A3-10-030,BRIP4A310030,BRIP431030,BRIP4A310030
+A3,Underground Waterways ,10,North Alignment Waterway,040,A310040,Lower Inlet/Outlet Structure Gate Shaft Middle to Top - North,5,Shannon Green,,,BR-P4-A3-10-040,BRIP4A310040,BRIP431040,BRIP4A310040
+A3,Underground Waterways ,10,North Alignment Waterway,050,A310050,Lower Inlet/Outlet Structure Gate Shaft Lower Part/Square Section - North,5,Shannon Green,,,BR-P4-A3-10-050,BRIP4A310050,BRIP431050,BRIP4A310050
+A3,Underground Waterways ,10,North Alignment Waterway,060,A310060,Low Pressure Tunnel - North,5,Shannon Green,,,BR-P4-A3-10-060,BRIP4A310060,BRIP431060,BRIP4A310060
+A3,Underground Waterways ,10,North Alignment Waterway,070,A310070,Erection Chamber - Upper - North,5,Shannon Green,,,BR-P4-A3-10-070,BRIP4A310070,BRIP431070,BRIP4A310070
+A3,Underground Waterways ,10,North Alignment Waterway,080,A310080,Vertical Pressure Shaft - North,5,Shannon Green,,,BR-P4-A3-10-080,BRIP4A310080,BRIP431080,BRIP4A310080
+A3,Underground Waterways ,10,North Alignment Waterway,090,A310090,Erection Chamber - Lower - North,5,Shannon Green,,,BR-P4-A3-10-090,BRIP4A310090,BRIP431090,BRIP4A310090
+A3,Underground Waterways ,10,North Alignment Waterway,100,A310100,High Pressure Tunnel - North,5,Shannon Green,,,BR-P4-A3-10-100,BRIP4A310100,BRIP431100,BRIP4A310100
+A3,Underground Waterways ,10,North Alignment Waterway,110,A310110,Penstock Steel Lined - North,5,Shannon Green,,,BR-P4-A3-10-110,BRIP4A310110,BRIP431110,BRIP4A310110
+A3,Underground Waterways ,10,North Alignment Waterway,120,A310120,Tailrace Collector Tunnel - North,5,Shannon Green,,,BR-P4-A3-10-120,BRIP4A310120,BRIP431120,BRIP4A310120
+A3,Underground Waterways ,10,North Alignment Waterway,130,A310130,Tailrace Tunnel - North,5,Shannon Green,,,BR-P4-A3-10-130,BRIP4A310130,BRIP431130,BRIP4A310130
+A3,Underground Waterways ,10,North Alignment Waterway,140,A310140,Surge Tank - North,5,Shannon Green,,,BR-P4-A3-10-140,BRIP4A310140,BRIP431140,BRIP4A310140
+A3,Underground Waterways ,20,South Alignment Waterway,000,A320000,South Alignment Waterway,4,,,,BR-P4-A3-20-000,BRIP4A320000,BRIP432000,BRIP4A320000
+A3,Underground Waterways ,20,South Alignment Waterway,010,A320010,Upper Inlet/Outlet Structure Bellmouth - South,5,Shannon Green,,,BR-P4-A3-20-010,BRIP4A320010,BRIP432010,BRIP4A320010
+A3,Underground Waterways ,20,South Alignment Waterway,020,A320020,Upper Inlet/Outlet Structure Gate Shaft - South,5,Shannon Green,,,BR-P4-A3-20-020,BRIP4A320020,BRIP432020,BRIP4A320020
+A3,Underground Waterways ,20,South Alignment Waterway,030,A320030,Lower Inlet/Outlet Structure Bellmouth - South,5,Shannon Green,,,BR-P4-A3-20-030,BRIP4A320030,BRIP432030,BRIP4A320030
+A3,Underground Waterways ,20,South Alignment Waterway,040,A320040,Lower Inlet/Outlet Structure Gate Shaft Middle to Top - South,5,Shannon Green,,,BR-P4-A3-20-040,BRIP4A320040,BRIP432040,BRIP4A320040
+A3,Underground Waterways ,20,South Alignment Waterway,050,A320050,Lower Inlet/Outlet Structure Gate Shaft Lower Part/Square Section - South,5,Shannon Green,,,BR-P4-A3-20-050,BRIP4A320050,BRIP432050,BRIP4A320050
+A3,Underground Waterways ,20,South Alignment Waterway,060,A320060,Low Pressure Tunnel - South,5,Shannon Green,,,BR-P4-A3-20-060,BRIP4A320060,BRIP432060,BRIP4A320060
+A3,Underground Waterways ,20,South Alignment Waterway,070,A320070,Erection Chamber - Upper - South,5,Shannon Green,,,BR-P4-A3-20-070,BRIP4A320070,BRIP432070,BRIP4A320070
+A3,Underground Waterways ,20,South Alignment Waterway,080,A320080,Vertical Pressure Shaft - South,5,Shannon Green,,,BR-P4-A3-20-080,BRIP4A320080,BRIP432080,BRIP4A320080
+A3,Underground Waterways ,20,South Alignment Waterway,090,A320090,Erection Chamber - Lower - South,5,Shannon Green,,,BR-P4-A3-20-090,BRIP4A320090,BRIP432090,BRIP4A320090
+A3,Underground Waterways ,20,South Alignment Waterway,100,A320100,High Pressure Tunnel - South,5,Shannon Green,,,BR-P4-A3-20-100,BRIP4A320100,BRIP432100,BRIP4A320100
+A3,Underground Waterways ,20,South Alignment Waterway,110,A320110,Penstock Steel Lined - South,5,Shannon Green,,,BR-P4-A3-20-110,BRIP4A320110,BRIP432110,BRIP4A320110
+A3,Underground Waterways ,20,South Alignment Waterway,120,A320120,Tailrace Collector Tunnel - South,5,Shannon Green,,,BR-P4-A3-20-120,BRIP4A320120,BRIP432120,BRIP4A320120
+A3,Underground Waterways ,20,South Alignment Waterway,130,A320130,Tailrace Tunnel - South,5,Shannon Green,,,BR-P4-A3-20-130,BRIP4A320130,BRIP432130,BRIP4A320130
+A3,Underground Waterways ,20,South Alignment Waterway,140,A320140,Surge Tank - South,5,Shannon Green,,,BR-P4-A3-20-140,BRIP4A320140,BRIP432140,BRIP4A320140
+A3,Underground Waterways ,30,Platform and Control Buildings,000,A330000,Platform and Control Buildings,4,,,,BR-P4-A3-30-000,BRIP4A330000,BRIP433000,BRIP4A330000
+A3,Underground Waterways ,30,Platform and Control Buildings,010,A330010,Upper Inlet/Outlet Platform and Control Building,5,Shannon Green,,,BR-P4-A3-30-010,BRIP4A330010,BRIP433010,BRIP4A330010
+A3,Underground Waterways ,30,Platform and Control Buildings,020,A330020,Lower Inlet/Outlet Platform and Control Building,5,Shannon Green,,,BR-P4-A3-30-020,BRIP4A330020,BRIP433020,BRIP4A330020
+A3,Underground Waterways ,40,Lower Inlet Structure Approach ,000,A340000,Lower Inlet Structure Approach ,4,,,,BR-P4-A3-40-000,BRIP4A340000,BRIP434000,BRIP4A340000
+A3,Underground Waterways ,40,Lower Inlet Structure Approach ,010,A340010,Lower Inlet/Outlet Structure - Approach,5,,,,BR-P4-A3-40-010,BRIP4A340010,BRIP434010,BRIP4A340010
+A3,Underground Waterways ,50,Surge Tanks Permanent access tunnel,000,A350000,Surge Tanks Permanent access tunnel,4,,,,BR-P4-A3-50-000,BRIP4A350000,BRIP435000,BRIP4A350000
+A3,Underground Waterways ,50,Surge Tanks Permanent access tunnel,010,A350010,Surge Tanks Permanent access tunnel,5,Shannon Green,,,BR-P4-A3-50-010,BRIP4A350010,BRIP435010,BRIP4A350010
+A3,Underground Waterways ,60,Assembly Chambers,000,A360000,Assembly Chambers,4,,,,BR-P4-A3-60-000,BRIP4A360000,BRIP436000,BRIP4A360000
+A3,Underground Waterways ,60,Assembly Chambers,010,A360010,"Upstream Assembly Chambers, Connection Tunnels and Adit",5,Shannon Green,Split Upstream/Downstream,,BR-P4-A3-60-010,BRIP4A360010,BRIP436010,BRIP4A360010
+A3,Underground Waterways ,60,Assembly Chambers,020,A360020,"Downstream Assembly Chambers, Connection Tunnels and Adit",5,Shannon Green,New,,BR-P4-A3-60-020,BRIP4A360020,BRIP436010,BRIP4A360020
+A3,Underground Waterways ,70,Site Rehabilitation ,000,A370000,Site Rehabilitation ,4,,,,BR-P4-A3-70-000,BRIP4A370000,BRIP437000,BRIP4A370000
+A3,Underground Waterways ,70,Site Rehabilitation ,010,A370010,Site Rehabilitation ,5,Shannon Green,,,BR-P4-A3-70-010,BRIP4A370010,BRIP437010,BRIP4A370010
+A4,Underground Access & Caverns ,00,Underground Access & Caverns ,000,A400000,Underground Access & Caverns ,3,,"More than 10 level 4 WBS, so an extra integer has been created",,BR-P4-A4-00-000,BRIP4A400000,,BRIP4A400000
+A4,Underground Access & Caverns ,01,Contractor Indirect & overheads,000,A401000,Contractor Indirect & overheads,4,,,,BR-P4-A4-01-000,BRIP4A401000,BRIP440100,BRIP4A401000
+A4,Underground Access & Caverns ,01,Contractor Indirect & overheads,010,A401010,Contractor Indirects & overheads,5,Shannon Green,,,BR-P4-A4-01-010,BRIP4A401010,BRIP440110,BRIP4A401010
+A4,Underground Access & Caverns ,02,Design ,000,A402000,Design ,4,,,,BR-P4-A4-02-000,BRIP4A402000,BRIP440200,BRIP4A402000
+A4,Underground Access & Caverns ,02,Design ,010,A402010,Detail Design - Main Facility,5,Bradley Norwood,Split for Main Facility/OEM,,BR-P4-A4-02-010,BRIP4A402010,BRIP440210,BRIP4A402010
+A4,Underground Access & Caverns ,02,Design ,020,A402020,Detail Design - OEM ,5,Bradley Norwood,Split for Main Facility/OEM,,BR-P4-A4-02-020,BRIP4A402020,BRIP440210,BRIP4A402020
+A4,Underground Access & Caverns ,03,Site Clearing ,000,A403000,Site Clearing ,4,,,,BR-P4-A4-03-000,BRIP4A403000,BRIP440300,BRIP4A403000
+A4,Underground Access & Caverns ,03,Site Clearing ,010,A403010,Site Clearing ,5,Shannon Green,,,BR-P4-A4-03-010,BRIP4A403010,BRIP440310,BRIP4A403010
+A4,Underground Access & Caverns ,04,Construction Surface Facilities,000,A404000,Construction Surface Facilities,4,,,,BR-P4-A4-04-000,BRIP4A404000,BRIP440400,BRIP4A404000
+A4,Underground Access & Caverns ,04,Construction Surface Facilities,010,A404010,Construction Site Facilities -  Platform Areas,5,Shannon Green,,,BR-P4-A4-04-010,BRIP4A404010,BRIP440410,BRIP4A404010
+A4,Underground Access & Caverns ,04,Construction Surface Facilities,020,A404020,Grout plant - mobilise and demobilise,5,Shannon Green,,,BR-P4-A4-04-020,BRIP4A404020,BRIP440420,BRIP4A404020
+A4,Underground Access & Caverns ,04,Construction Surface Facilities,030,A404030,Construction Site Facilities -  Platform 2 - Concrete Plant,5,Shannon Green,,,BR-P4-A4-04-030,BRIP4A404030,BRIP440430,BRIP4A404030
+A4,Underground Access & Caverns ,04,Construction Surface Facilities,040,A404040,Concrete batching plant - mobilise and demobilise,5,Shannon Green,,,BR-P4-A4-04-040,BRIP4A404040,BRIP440440,BRIP4A404040
+A4,Underground Access & Caverns ,04,Construction Surface Facilities,050,A404050,Construction Site Facilities -  Upper inlet / outlet - Concrete Plant,5,Shannon Green,,,BR-P4-A4-04-050,BRIP4A404050,BRIP440450,BRIP4A404050
+A4,Underground Access & Caverns ,05,ECTV Exploratory Drilling,000,A405000,ECTV Exploratory Drilling,4,,,,BR-P4-A4-05-000,BRIP4A405000,BRIP440500,BRIP4A405000
+A4,Underground Access & Caverns ,05,ECTV Exploratory Drilling,010,A405010,Exploratory Tunnel - Surface Works,5,,,,BR-P4-A4-05-010,BRIP4A405010,BRIP440510,BRIP4A405010
+A4,Underground Access & Caverns ,05,ECTV Exploratory Drilling,020,A405020,Exploratory Tunnel - Underground Works,5,,,,BR-P4-A4-05-020,BRIP4A405020,BRIP440520,BRIP4A405020
+A4,Underground Access & Caverns ,05,ECTV Exploratory Drilling,030,A405030,Exploratory Tunnel - Caverns Investigation,5,,,,BR-P4-A4-05-030,BRIP4A405030,BRIP440530,BRIP4A405030
+A4,Underground Access & Caverns ,05,ECTV Exploratory Drilling,040,A405040,Exploratory Tunnel - Management Services,5,,,,BR-P4-A4-05-040,BRIP4A405040,BRIP440540,BRIP4A405040
+A4,Underground Access & Caverns ,06,MAT and ECVT,000,A406000,MAT and ECVT,4,,,,BR-P4-A4-06-000,BRIP4A406000,BRIP440600,BRIP4A406000
+A4,Underground Access & Caverns ,06,MAT and ECVT,010,A406010,Main Access Tunnel (MAT),5,Shannon Green,,,BR-P4-A4-06-010,BRIP4A406010,BRIP440610,BRIP4A406010
+A4,Underground Access & Caverns ,06,MAT and ECVT,020,A406020,"Emergency, Cable and Ventilation Tunnel (ECVT) Completion ",5,Shannon Green,,,BR-P4-A4-06-020,BRIP4A406020,BRIP440620,BRIP4A406020
+A4,Underground Access & Caverns ,07,Power Cavern,000,A407000,Power Cavern,4,,,,BR-P4-A4-07-000,BRIP4A407000,BRIP440700,BRIP4A407000
+A4,Underground Access & Caverns ,07,Power Cavern,010,A407010,Power Cavern,5,Shannon Green,,,BR-P4-A4-07-010,BRIP4A407010,BRIP440710,BRIP4A407010
+A4,Underground Access & Caverns ,08,Transformer Cavern,000,A408000,Transformer Cavern,4,,,,BR-P4-A4-08-000,BRIP4A408000,BRIP440800,BRIP4A408000
+A4,Underground Access & Caverns ,08,Transformer Cavern,010,A408010,Transformer Cavern,5,Shannon Green,,,BR-P4-A4-08-010,BRIP4A408010,BRIP440810,BRIP4A408010
+A4,Underground Access & Caverns ,09,IPB Galleries (x 6),000,A409000,IPB Galleries (x 6),4,,,,BR-P4-A4-09-000,BRIP4A409000,BRIP440900,BRIP4A409000
+A4,Underground Access & Caverns ,09,IPB Galleries (x 6),010,A409010,IPB Galleries (x 6),5,Shannon Green,,,BR-P4-A4-09-010,BRIP4A409010,BRIP440910,BRIP4A409010
+A4,Underground Access & Caverns ,10,MAT Tunnels between Power Cavern and Transformer Cavern,000,A410000,MAT Tunnels between Power Cavern and Transformer Cavern,4,,,,BR-P4-A4-10-000,BRIP4A410000,BRIP441000,BRIP4A410000
+A4,Underground Access & Caverns ,10,MAT Tunnels between Power Cavern and Transformer Cavern,010,A410010,MAT Tunnels between Power Cavern and Transformer Cavern,5,Shannon Green,,,BR-P4-A4-10-010,BRIP4A410010,BRIP441010,BRIP4A410010
+A4,Underground Access & Caverns ,11,Traffic Control,000,A411000,Traffic Control,4,,,,BR-P4-A4-11-000,BRIP4A411000,BRIP441100,BRIP4A411000
+A4,Underground Access & Caverns ,11,Traffic Control,010,A411010,Traffic Control,5,Shannon Green,,,BR-P4-A4-11-010,BRIP4A411010,BRIP441110,BRIP4A411010
+A4,Underground Access & Caverns ,12,Site Rehabilitation ,000,A412000,Site Rehabilitation ,4,,,,BR-P4-A4-12-000,BRIP4A412000,BRIP441100,BRIP4A412000
+A4,Underground Access & Caverns ,12,Site Rehabilitation ,010,A412010,Site Rehabilitation ,5,Shannon Green,,,BR-P4-A4-12-010,BRIP4A412010,BRIP441110,BRIP4A412010
+A5,Powerhouse Mech & Elec,00,Powerhouse Mech & Elec,000,A500000,Powerhouse Mech & Elec,3,,,,BR-P4-A5-00-000,BRIP4A500000,,BRIP4A500000
+A5,Powerhouse Mech & Elec,01,Contractor Indirect & overheads,000,A501000,Contractor Indirect & overheads,4,,,,BR-P4-A5-01-000,BRIP4A501000,BRIP450100,BRIP4A501000
+A5,Powerhouse Mech & Elec,01,Contractor Indirects & overheads,010,A501010,Contractor Indirects & overheads,5,Shannon Green,,,BR-P4-A5-01-010,BRIP4A501010,BRIP450110,BRIP4A501010
+A5,Powerhouse Mech & Elec,02,Design ,000,A502000,Design ,4,,,,BR-P4-A5-02-000,BRIP4A502000,BRIP450200,BRIP4A502000
+A5,Powerhouse Mech & Elec,02,Design ,010,A502010,Design ,5,Bradley Norwood,,,BR-P4-A5-02-010,BRIP4A502010,BRIP450210,BRIP4A502010
+A5,Powerhouse Mech & Elec,03,Mech & Elec,000,A503000,Mech & Elec,4,,,,BR-P4-A5-03-000,BRIP4A503000,BRIP450300,BRIP4A503000
+A5,Powerhouse Mech & Elec,03,Mech & Elec,010,A503010,Mech & Elec,5,Shannon Green,,,BR-P4-A5-03-010,BRIP4A503010,BRIP450310,BRIP4A503010
+A5,Powerhouse Mech & Elec,04,Power Turbines,000,A504000,Power Turbines,4,,,,BR-P4-A5-04-000,BRIP4A504000,BRIP450400,BRIP4A504000
+A5,Powerhouse Mech & Elec,04,Power Turbines,010,A504010,Power Turbines,5,Shannon Green,,,BR-P4-A5-04-010,BRIP4A504010,BRIP450410,BRIP4A504010
+A5,Powerhouse Mech & Elec,05,Transformers,000,A505000,Transformers,4,,,,BR-P4-A5-05-000,BRIP4A505000,BRIP450500,BRIP4A505000
+A5,Powerhouse Mech & Elec,05,Transformers,010,A505010,Transformers,5,Shannon Green,,,BR-P4-A5-05-010,BRIP4A505010,BRIP450510,BRIP4A505010
+A5,Powerhouse Mech & Elec,06,Hydro-Mechanical Works,000,A506000,Hydro-Mechanical Works,4,,,,BR-P4-A5-06-000,BRIP4A506000,BRIP450600,BRIP4A506000
+A5,Powerhouse Mech & Elec,06,Hydro-Mechanical Works,010,A506010,Hydro-Mechanical Works,5,Shannon Green,,,BR-P4-A5-06-010,BRIP4A506010,BRIP450610,BRIP4A506010
+A5,Powerhouse Mech & Elec,07,Electrical Install,000,A507000,Electrical Install,4,,,,BR-P4-A5-07-000,BRIP4A507000,BRIP450700,BRIP4A507000
+A5,Powerhouse Mech & Elec,07,Electrical Install,010,A507010,Electrical Install,5,Shannon Green,,,BR-P4-A5-07-010,BRIP4A507010,BRIP450710,BRIP4A507010
+A5,Powerhouse Mech & Elec,08,Power Evacuation and Grid Connection,000,A508000,Power Evacuation and Grid Connection,4,,,,BR-P4-A5-08-000,BRIP4A508000,BRIP450800,BRIP4A508000
+A5,Powerhouse Mech & Elec,08,Power Evacuation and Grid Connection,010,A508010,Power Evacuation and Grid Connection,5,Shannon Green,,,BR-P4-A5-08-010,BRIP4A508010,BRIP450810,BRIP4A508010
+A5,Powerhouse Mech & Elec,09,Commissioning OEM,000,A509000,Commissioning OEM,4,,,,BR-P4-A5-09-000,BRIP4A509000,BRIP450900,BRIP4A509000
+A5,Powerhouse Mech & Elec,09,Commissioning OEM,010,A509010,Commissioning OEM,5,Shannon Green,,,BR-P4-A5-09-010,BRIP4A509010,BRIP450910,BRIP4A509010
+A5,Powerhouse Mech & Elec,10,Site Rehabilitation ,000,A510000,Site Rehabilitation ,4,,,,BR-P4-A5-10-000,BRIP4A510000,BRIP451000,BRIP4A510000
+A5,Powerhouse Mech & Elec,10,Site Rehabilitation ,010,A510010,Site Rehabilitation ,5,Shannon Green,,,BR-P4-A5-10-010,BRIP4A510010,BRIP451010,BRIP4A510010
+A6,Lower Reservoir,00,Lower Reservoir,000,A600000,Lower Reservoir,3,,,,BR-P4-A6-00-000,BRIP4A600000,,BRIP4A600000
+A6,Lower Reservoir,01,Contractor Indirect & overheads,000,A601000,Contractor Indirect & overheads,4,,,,BR-P4-A6-01-000,BRIP4A601000,BRIP460100,BRIP4A601000
+A6,Lower Reservoir,01,Contractor Indirect & overheads,010,A601010,Contractor Indirect & overheads,5,Steve Pickering,,,BR-P4-A6-01-010,BRIP4A601010,BRIP460110,BRIP4A601010
+A6,Lower Reservoir,02,Design,000,A602000,Design,4,,,,BR-P4-A6-02-000,BRIP4A602000,BRIP460200,BRIP4A602000
+A6,Lower Reservoir,02,Design,010,A602010,Design,5,Bradley Norwood,,,BR-P4-A6-02-010,BRIP4A602010,BRIP460210,BRIP4A602010
+A6,Lower Reservoir,03,Site Clearing ,000,A603000,Site Clearing ,4,,,,BR-P4-A6-03-000,BRIP4A603000,BRIP460300,BRIP4A603000
+A6,Lower Reservoir,03,Site Clearing ,010,A603010,Site Clearing ,5,Steve Pickering,,,BR-P4-A6-03-010,BRIP4A603010,BRIP460310,BRIP4A603010
+A6,Lower Reservoir,04,Quarry Development  and Material Operations,000,A604000,Quarry Development  and Material Operations,4,,,,BR-P4-A6-04-000,BRIP4A604000,BRIP460400,BRIP4A604000
+A6,Lower Reservoir,04,Quarry Development  and Material Operations,010,A604010,Quarry Development  and Material Operations,5,Steve Pickering,,,BR-P4-A6-04-010,BRIP4A604010,BRIP460410,BRIP4A604010
+A6,Lower Reservoir,05,Diversion and Watering,000,A605000,Diversion and Watering,4,,,,BR-P4-A6-05-000,BRIP4A605000,BRIP460500,BRIP4A605000
+A6,Lower Reservoir,05,Diversion and Watering,010,A605010,Diversion and Watering,5,Steve Pickering,,,BR-P4-A6-05-010,BRIP4A605010,BRIP460510,BRIP4A605010
+A6,Lower Reservoir,06,Foundations,000,A606000,Foundations,4,,,,BR-P4-A6-06-000,BRIP4A606000,BRIP460600,BRIP4A606000
+A6,Lower Reservoir,06,Foundations,010,A606010,Foundations,5,Steve Pickering,,,BR-P4-A6-06-010,BRIP4A606010,BRIP460610,BRIP4A606010
+A6,Lower Reservoir,07,Dam Construction,000,A607000,Dam Construction,4,,,,BR-P4-A6-07-000,BRIP4A607000,BRIP460700,BRIP4A607000
+A6,Lower Reservoir,07,Dam Construction,010,A607010,Dam Construction,5,Steve Pickering,,,BR-P4-A6-07-010,BRIP4A607010,BRIP460710,BRIP4A607010
+A6,Lower Reservoir,08,Spillway,000,A608000,Spillway,4,,,,BR-P4-A6-08-000,BRIP4A608000,BRIP460800,BRIP4A608000
+A6,Lower Reservoir,08,Spillway,010,A608010,Spillway,5,Steve Pickering,,,BR-P4-A6-08-010,BRIP4A608010,BRIP460810,BRIP4A608010
+A6,Lower Reservoir,09,Intake Tower,000,A609000,Intake Tower,4,,,,BR-P4-A6-09-000,BRIP4A609000,BRIP460900,BRIP4A609000
+A6,Lower Reservoir,09,Intake Tower,010,A609010,Intake Tower,5,Steve Pickering,,,BR-P4-A6-09-010,BRIP4A609010,BRIP460910,BRIP4A609010
+A6,Lower Reservoir,10,Outlet Works,000,A610000,Outlet Works,4,,,,BR-P4-A6-10-000,BRIP4A610000,BRIP461000,BRIP4A610000
+A6,Lower Reservoir,10,Outlet Works,010,A610010,Outlet Works,5,Steve Pickering,,,BR-P4-A6-10-010,BRIP4A610010,BRIP461010,BRIP4A610010
+A6,Lower Reservoir,11,Fishway,000,A611000,Fishway,4,,,,BR-P4-A6-11-000,BRIP4A611000,BRIP461100,BRIP4A611000
+A6,Lower Reservoir,11,Fishway,010,A611010,Fishway,5,Steve Pickering,,,BR-P4-A6-11-010,BRIP4A611010,BRIP461110,BRIP4A611010
+A6,Lower Reservoir,12,Over topping Event of the Lower Dam,000,A612000,Over topping Event of the Lower Dam,4,,,,BR-P4-A6-12-000,BRIP4A612000,BRIP461200,BRIP4A612000
+A6,Lower Reservoir,12,Over topping Event of the Lower Dam,010,A612010,Over topping Event of the Lower Dam,5,Steve Pickering,,,BR-P4-A6-12-010,BRIP4A612010,BRIP461210,BRIP4A612010
+A6,Lower Reservoir,13,Traffic Control,000,A613000,Traffic Control,4,,,,BR-P4-A6-13-000,BRIP4A613000,BRIP461300,BRIP4A613000
+A6,Lower Reservoir,13,Traffic Control,010,A613010,Traffic Control,5,Steve Pickering,,,BR-P4-A6-13-010,BRIP4A613010,BRIP461310,BRIP4A613010
+A6,Lower Reservoir,14,Site Rehabilitation,000,A614000,Site Rehabilitation,4,,,,BR-P4-A6-14-000,BRIP4A614000,BRIP461400,BRIP4A614000
+A6,Lower Reservoir,14,Site Rehabilitation,010,A614010,Site Rehabilitation,5,Steve Pickering,,,BR-P4-A6-14-010,BRIP4A614010,BRIP461410,BRIP4A614010
+A7,Upper Reservoir,00,Upper Reservoir,000,A700000,Upper Reservoir,3,,,,BR-P4-A7-00-000,BRIP4A700000,,BRIP4A700000
+A7,Upper Reservoir,01,Contractor Indirect & overheads,000,A701000,Contractor Indirect & overheads,4,,,,BR-P4-A7-01-000,BRIP4A701000,BRIP470100,BRIP4A701000
+A7,Upper Reservoir,01,Contractor Indirect & overheads,010,A701010,Contractor Indirect & overheads,5,Clifford Hookham,,,BR-P4-A7-01-010,BRIP4A701010,BRIP470110,BRIP4A701010
+A7,Upper Reservoir,02,Design,000,A702000,Design,4,,,,BR-P4-A7-02-000,BRIP4A702000,BRIP470200,BRIP4A702000
+A7,Upper Reservoir,02,Design,010,A702010,Design,5,Bradley Norwood,,,BR-P4-A7-02-010,BRIP4A702010,BRIP470210,BRIP4A702010
+A7,Upper Reservoir,03,Site Clearing ,000,A703000,Site Clearing ,4,,,,BR-P4-A7-03-000,BRIP4A703000,BRIP470300,BRIP4A703000
+A7,Upper Reservoir,03,Site Clearing ,010,A703010,Site Clearing ,5,Clifford Hookham,,,BR-P4-A7-03-010,BRIP4A703010,BRIP470310,BRIP4A703010
+A7,Upper Reservoir,04,Quarry Development  and Material Operations,000,A704000,Quarry Development  and Material Operations,4,,,,BR-P4-A7-04-000,BRIP4A704000,BRIP470400,BRIP4A704000
+A7,Upper Reservoir,04,Quarry Development  and Material Operations,010,A704010,Quarry Development  and Material Operations,5,Clifford Hookham,,,BR-P4-A7-04-010,BRIP4A704010,BRIP470410,BRIP4A704010
+A7,Upper Reservoir,05,Diversion and Watering,000,A705000,Diversion and Watering,4,,,,BR-P4-A7-05-000,BRIP4A705000,BRIP470500,BRIP4A705000
+A7,Upper Reservoir,05,Diversion and Watering,010,A705010,Diversion and Watering,5,Clifford Hookham,,,BR-P4-A7-05-010,BRIP4A705010,BRIP470510,BRIP4A705010
+A7,Upper Reservoir,06,Foundations,000,A706000,Foundations,4,,,,BR-P4-A7-06-000,BRIP4A706000,BRIP470600,BRIP4A706000
+A7,Upper Reservoir,06,Foundations,010,A706010,Foundations,5,Clifford Hookham,,,BR-P4-A7-06-010,BRIP4A706010,BRIP470610,BRIP4A706010
+A7,Upper Reservoir,07,Dam Construction,000,A707000,Dam Construction,4,,,,BR-P4-A7-07-000,BRIP4A707000,BRIP470700,BRIP4A707000
+A7,Upper Reservoir,07,Main CFRD Dam,010,A707010,Main CFRD Dam,5,Clifford Hookham,,,BR-P4-A7-07-010,BRIP4A707010,BRIP470710,BRIP4A707010
+A7,Upper Reservoir,07,Main Saddle (CFRD) Dam,020,A707020,Main Saddle (CFRD) Dam,5,Clifford Hookham,,,BR-P4-A7-07-020,BRIP4A707020,BRIP470720,BRIP4A707020
+A7,Upper Reservoir,07,Secondary Saddle (CFRD) Dam A,030,A707030,Secondary Saddle (CFRD) Dam A,5,Clifford Hookham,,,BR-P4-A7-07-030,BRIP4A707030,BRIP470730,BRIP4A707030
+A7,Upper Reservoir,07,Secondary Saddle (CFRD) Dam B1,040,A707040,Secondary Saddle (CFRD) Dam B1,5,Clifford Hookham,,,BR-P4-A7-07-040,BRIP4A707040,BRIP470740,BRIP4A707040
+A7,Upper Reservoir,07,Secondary Saddle (CFRD) Dam B2,050,A707050,Secondary Saddle (CFRD) Dam B2,5,Clifford Hookham,,,BR-P4-A7-07-050,BRIP4A707050,BRIP470750,BRIP4A707050
+A7,Upper Reservoir,07,Secondary Saddle (CFRD) Dam No.B3,060,A707060,Secondary Saddle (CFRD) Dam No.B3,5,Clifford Hookham,,,BR-P4-A7-07-060,BRIP4A707060,BRIP470760,BRIP4A707060
+A7,Upper Reservoir,08,Emergency Spillway,000,A708000,Emergency Spillway,4,,,,BR-P4-A7-08-000,BRIP4A708000,BRIP470800,BRIP4A708000
+A7,Upper Reservoir,08,Emergency Spillway,010,A708010,Emergency Spillway,5,Clifford Hookham,,,BR-P4-A7-08-010,BRIP4A708010,BRIP470810,BRIP4A708010
+A7,Upper Reservoir,09,Traffic Control,000,A709000,Traffic Control,4,,,,BR-P4-A7-09-000,BRIP4A709000,BRIP470900,BRIP4A709000
+A7,Upper Reservoir,09,Traffic Control,010,A709010,Traffic Control,5,Clifford Hookham,,,BR-P4-A7-09-010,BRIP4A709010,BRIP470910,BRIP4A709010
+A7,Upper Reservoir,10,Site Rehabilitation,000,A710000,Site Rehabilitation,4,,,,BR-P4-A7-10-000,BRIP4A710000,BRIP471000,BRIP4A710000
+A7,Upper Reservoir,10,Site Rehabilitation,010,A710010,Site Rehabilitation,5,Clifford Hookham,,,BR-P4-A7-10-010,BRIP4A710010,BRIP471010,BRIP4A710010
+A8,Transmissions,00,Transmissions,000,A800000,Transmissions,3,,,,BR-P4-A8-00-000,BRIP4A800000,,BRIP4A800000
+A8,Transmissions,01,Transmissions - Tarong,000,A801000,Borumba -  Tarong 275kV,4,,Renumbered L4 to remove double up,,BR-P4-A8-01-000,BRIP4A801000,BRIP480000,BRIP4A801000
+A8,Transmissions,01,Transmissions - Tarong,010,A801010,Borumba -  Tarong 275kV,5,,,,BR-P4-A8-01-010,BRIP4A801010,BRIP480010,BRIP4A801010
+A8,Transmissions,02,Transmissions - Woolooga,000,A802000,Borumba -  Woolooga 275kV,4,,Renumbered L4 to remove double up,,BR-P4-A8-02-000,BRIP4A802000,BRIP480100,BRIP4A802000
+A8,Transmissions,02,Transmissions - Woolooga,110,A802110,Borumba -  Woolooga 275kV,5,,,,BR-P4-A8-02-110,BRIP4A802110,BRIP480110,BRIP4A802110
+A9,Contingency & Escalation,00,Contingency & Escalation,000,A900000,Contingency & Escalation,3,,Need to amend L3,,BR-P4-A9-00-000,BRIP4A900000,,BRIP4A900000
+A9,Contingency & Escalation,91,Contingency ,000,A991000,Contingency ,4,,Doesn’t fit,,BR-P4-A9-91-000,BRIP4A991000,BRIP499100,BRIP4A991000
+A9,Contingency & Escalation,91,Contingency ,010,A991010,P50 Contingency QH Costs,5,Mike Wells,,,BR-P4-A9-91-010,BRIP4A991010,BRIP499110,BRIP4A991010
+A9,Contingency & Escalation,91,Contingency ,020,A991020,P90 Contingency QH Costs,5,Mike Wells,,,BR-P4-A9-91-020,BRIP4A991020,BRIP499120,BRIP4A991020
+A9,Contingency & Escalation,91,Contingency ,030,A991030,P50 Contingency Surface Infrastructure and Enabling ,5,Mike Wells,,,BR-P4-A9-91-030,BRIP4A991030,BRIP499130,BRIP4A991030
+A9,Contingency & Escalation,91,Contingency ,040,A991040,P90 Contingency  Surface Infrastructure and Enabling ,5,Mike Wells,,,BR-P4-A9-91-040,BRIP4A991040,BRIP499140,BRIP4A991040
+A9,Contingency & Escalation,91,Contingency ,050,A991050,P50 Contingency Underground Waterways ,5,Mike Wells,,,BR-P4-A9-91-050,BRIP4A991050,BRIP499150,BRIP4A991050
+A9,Contingency & Escalation,91,Contingency ,060,A991060,P90 Contingency Underground Waterways ,5,Mike Wells,,,BR-P4-A9-91-060,BRIP4A991060,BRIP499160,BRIP4A991060
+A9,Contingency & Escalation,91,Contingency ,070,A991070,P50 Contingency Underground Access & Caverns ,5,Mike Wells,,,BR-P4-A9-91-070,BRIP4A991070,BRIP499170,BRIP4A991070
+A9,Contingency & Escalation,91,Contingency ,080,A991080,P90 Contingency Underground Access & Caverns ,5,Mike Wells,,,BR-P4-A9-91-080,BRIP4A991080,BRIP499180,BRIP4A991080
+A9,Contingency & Escalation,91,Contingency ,090,A991090,P50 Contingency Powerhouse Mech & Elec,5,Mike Wells,,,BR-P4-A9-91-090,BRIP4A991090,BRIP499190,BRIP4A991090
+A9,Contingency & Escalation,91,Contingency ,100,A991100,P90 Contingency Powerhouse Mech & Elec,5,Mike Wells,,,BR-P4-A9-91-100,BRIP4A991100,BRIP499200,BRIP4A991100
+A9,Contingency & Escalation,91,Contingency ,110,A991110,P50 Contingency Lower Reservoir,5,Mike Wells,,,BR-P4-A9-91-110,BRIP4A991110,BRIP499210,BRIP4A991110
+A9,Contingency & Escalation,91,Contingency ,120,A991120,P90 Contingency Lower Reservoir,5,Mike Wells,,,BR-P4-A9-91-120,BRIP4A991120,BRIP499220,BRIP4A991120
+A9,Contingency & Escalation,91,Contingency ,130,A991130,P50 Contingency Upper Reservoir,5,Mike Wells,,,BR-P4-A9-91-130,BRIP4A991130,BRIP499230,BRIP4A991130
+A9,Contingency & Escalation,91,Contingency ,140,A991140,P90 Contingency Upper Reservoir,5,Mike Wells,,,BR-P4-A9-91-140,BRIP4A991140,BRIP499240,BRIP4A991140
+A9,Contingency & Escalation,95,Escalation ,000,A995000,Escalation ,4,Mike Wells,Doesn’t fit,,BR-P4-A9-95-000,BRIP4A995000,BRIP499500,BRIP4A995000
+A9,Contingency & Escalation,95,Escalation ,010,A995010,Escalation QH Costs,5,Mike Wells,,,BR-P4-A9-95-010,BRIP4A995010,BRIP499510,BRIP4A995010
+A9,Contingency & Escalation,95,Escalation ,020,A995020,Escalation  Surface Infrastructure and Enabling ,5,Mike Wells,,,BR-P4-A9-95-020,BRIP4A995020,BRIP499520,BRIP4A995020
+A9,Contingency & Escalation,95,Escalation ,030,A995030,Escalation  Underground Waterways ,5,Mike Wells,,,BR-P4-A9-95-030,BRIP4A995030,BRIP499530,BRIP4A995030
+A9,Contingency & Escalation,95,Escalation ,040,A995040,Escalation  Underground Access & Caverns ,5,Mike Wells,,,BR-P4-A9-95-040,BRIP4A995040,BRIP499540,BRIP4A995040
+A9,Contingency & Escalation,95,Escalation ,050,A995050,Escalation  Powerhouse Mech & Elec,5,Mike Wells,,,BR-P4-A9-95-050,BRIP4A995050,BRIP499550,BRIP4A995050
+A9,Contingency & Escalation,95,Escalation ,060,A995060,Escalation  Lower Reservoir,5,Mike Wells,,,BR-P4-A9-95-060,BRIP4A995060,BRIP499560,BRIP4A995060
+A9,Contingency & Escalation,95,Escalation ,070,A995070,Escalation  Upper Reservoir,5,Mike Wells,,,BR-P4-A9-95-070,BRIP4A995070,BRIP499570,BRIP4A995070
